@@ -2,7 +2,7 @@
 
 Dentro de la aplicación web de RPA Forms se debe presionar en el botón **New** para generar un nuevo **formDefinition.**
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 Se abrirá el siguiente modal
 
@@ -24,7 +24,7 @@ En el cual se deben completar los siguientes campos:\
 
 Una vez completos estos campos se debe presionar **Create** y el _formDefinition_ se visualizará al final de la lista:
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -33,7 +33,7 @@ Al ingresar al formDefinition seleccionando su nombre se tendrán 3 áreas en pa
 **Layout:** Se define la disposición de los campos en la pantalla.\
 **Preview:** Vista previa del formulario en base al Schema y al Layout establecido.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 
 
