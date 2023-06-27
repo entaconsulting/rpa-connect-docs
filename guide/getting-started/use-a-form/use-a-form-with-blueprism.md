@@ -8,7 +8,7 @@ Los requisitos para utilizar un formulario son:
 
 Una vez abierto el proceso RPA Connect - Getting Started  en BluePrism se deben completar los siguientes Data Items en el Main Page:
 
-* formDefinitionID (dato obtenido previamente durante la creación del formulario, agregar referencia a ese paso)
+* formDefinitionID (dato obtenido previamente durante la [creación del formulario](../create-a-form.md))
 * ApiKey (dato obtenido previamente durante la creación del paso 4 \<agregar referencia a ese paso>)
 * Host: Se debe completar con “app.rpaforms.com”
 
@@ -29,7 +29,7 @@ Al ejecutar "Get Instance Response" hay dos caminos posibles:
 * La instancia no haya sido respondida por lo que no se obtendrá información.
   *
 
-      <figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
   *
 
       <figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
