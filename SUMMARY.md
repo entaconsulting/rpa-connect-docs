@@ -9,8 +9,6 @@
   * [Use a Form](guide/getting-started/use-a-form/README.md)
     * [Use a Form with BluePrism](guide/getting-started/use-a-form/use-a-form-with-blueprism.md)
     * [Use a Form with Power Automate](guide/getting-started/use-a-form/use-a-form-with-power-automate.md)
-  * [Create a Workflow](guide/getting-started/create-a-workflow.md)
-  * [Use a Workflow](guide/getting-started/use-a-workflow.md)
 * [✨ Develop a Form](guide/develop-a-form/README.md)
   * [How to use a text field](guide/develop-a-form/how-to-use-a-text-field.md)
 * [✨ Administrator](guide/administrator/README.md)
@@ -18,7 +16,7 @@
   * [Profiles](guide/administrator/profiles.md)
   * [Users and Groups](guide/administrator/users-and-groups.md)
 * [✨ Workflows](guide/workflows/README.md)
-  * [Make a Workflow](guide/workflows/make-a-workflow.md)
+  * [Create a Workflow](guide/workflows/create-a-workflow.md)
   * [Use a Workflow](guide/workflows/use-a-workflow.md)
   * [Connect](guide/workflows/connect.md)
 
