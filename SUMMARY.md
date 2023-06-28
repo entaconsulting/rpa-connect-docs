@@ -11,14 +11,14 @@
     * [Use a Form with Power Automate](guide/getting-started/use-a-form/use-a-form-with-power-automate.md)
 * [✨ Develop a Form](guide/develop-a-form/README.md)
   * [How to use a text field](guide/develop-a-form/how-to-use-a-text-field.md)
-* [✨ Administrator](guide/administrator/README.md)
-  * [Workspace](guide/administrator/workspace.md)
-  * [Profiles](guide/administrator/profiles.md)
-  * [Users and Groups](guide/administrator/users-and-groups.md)
-* [✨ Workflows](guide/workflows/README.md)
+* [🔃 Workflows](guide/workflows/README.md)
   * [Create a Workflow](guide/workflows/create-a-workflow.md)
   * [Use a Workflow](guide/workflows/use-a-workflow.md)
   * [Connect](guide/workflows/connect.md)
+* [🧑💻 Administrator](guide/administrator/README.md)
+  * [Workspace](guide/administrator/workspace.md)
+  * [Profiles](guide/administrator/profiles.md)
+  * [Users and Groups](guide/administrator/users-and-groups.md)
 
 ## Integrations
 

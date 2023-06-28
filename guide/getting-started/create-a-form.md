@@ -8,7 +8,7 @@ Se abrirá el siguiente modal
 
 <div align="center" data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -33,7 +33,7 @@ Al ingresar al formDefinition seleccionando su nombre se tendrán 3 áreas en pa
 **Layout:** Se define la disposición de los campos en la pantalla.\
 **Preview:** Vista previa del formulario en base al Schema y al Layout establecido.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -152,5 +152,5 @@ Luego hay que definir en el "layout" como se visualizan estos elementos del sche
 
 Con el schema y layout definido podemos ya visualizar en la seccion preview el formulario
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 

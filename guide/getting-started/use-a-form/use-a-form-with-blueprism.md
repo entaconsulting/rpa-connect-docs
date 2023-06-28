@@ -29,7 +29,7 @@ Al ejecutar "Get Instance Response" hay dos caminos posibles:
 * La instancia no haya sido respondida por lo que no se obtendrá información.
   *
 
-      <figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
   *
 
       <figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
