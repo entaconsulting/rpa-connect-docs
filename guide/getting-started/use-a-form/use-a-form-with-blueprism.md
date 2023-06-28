@@ -18,7 +18,7 @@ Referenciar en el "Main Page" la página "Create a Form" y completar los inputs 
 
 <figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 Al completar estos datos se puede iniciar la ejecución del proceso y se obtiene una instancia del formulario con su link de acceso.
 
