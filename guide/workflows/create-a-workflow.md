@@ -1,9 +1,5 @@
 # Create a Workflow
 
-Un "Workflow" se refiere a una secuencia de formularios interconectados que se deben completar en un orden específico. Cada formulario se puede completar por la misma persona o por diferentes personas, según corresponda.
-
-Una vez que se completa un formulario y se valida, el flujo de trabajo avanza al siguiente formulario en la secuencia. Este proceso de completar formularios y avanzar a través de la secuencia se puede repetir varias veces, lo que permite una mayor personalización y flexibilidad en la gestión del flujo de trabajo.
-
 Se utilizará el formulario que se generó en la sección [Create a Form](../getting-started/create-a-form.md), pero se necesitará un segundo formDefinition para establecerlo como un stage, para esto se puede utilizar la definición del siguiente formulario:
 
 **Name:** Getting Started - Use a Stage
