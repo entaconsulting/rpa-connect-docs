@@ -1,5 +1,5 @@
 ---
-coverY: 0
+coverY: -26
 layout: landing
 ---
 

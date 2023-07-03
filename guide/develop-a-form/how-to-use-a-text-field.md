@@ -155,6 +155,8 @@ If a text field can only have a specific set of valid data, the "_whitelist_" pr
 {% endtab %}
 {% endtabs %}
 
+
+
 ### Field with Set of Rejected Values
 
 Following the same logic as the previous point, the "_blacklist_" property can be used to list a group of data that cannot be entered.
@@ -183,7 +185,7 @@ Following the same logic as the previous point, the "_blacklist_" property can b
 
 ### Field with Mask
 
-The field can be configured to accept values only in a specific format by using a mask. This can be done using the "_inputMask_" property.
+The field can be configured to accept values only in a specific format of fixed size. This can be done using the "_inputMask_" property.
 
 {% tabs %}
 {% tab title="Visual Editor" %}
@@ -191,29 +193,36 @@ The field can be configured to accept values only in a specific format by using 
 {% endtab %}
 
 {% tab title="Code Editor" %}
-"_inputMask"_ defines ....
+"_inputMask" property_ defines a pattern mask using the following definitions
+
+* `0` - any digit
+* `a` - any letter
+* `*` - any char
+* `[]` - make input optional
+* `{}` - include fixed part in unmasked value
+* `` ` `` - prevent symbols shift back
 
 {% code title="Schema" %}
 ```
-"employeeName": {
-      "type": "text",
-      "inputMask" : ""
+"ArgentinePostalCode":{
+	"type": "text",
+	"inputMask":"a000[aaa]"
 }
 ```
 {% endcode %}
 
-other way of defining a mask is using "_charOptions" which_ defines placeholders as Regular Expressions and "_mask_" defines the format in function of the placeholder.
+other way of defining a mask is using "_charOptions" which_ defines placeholders of single character with Regular Expressions and "_mask_" defines the format in function of the placeholder or the the default definitions.
 
 {% code title="Schema" %}
 ```json
-"employeeName": {
-      "type": "text",
-      "inputMask" : {
+"ArgentinePostalCode":{
+	"type": "text",
+	"inputMask": {	
             "charOptions": {
                   "A": "[A-Z]"
             },
-            "mask": "AAAA"
-       }
+            "mask": "A000[AAA]"
+	}
 }
 ```
 {% endcode %}
@@ -223,6 +232,16 @@ other way of defining a mask is using "_charOptions" which_ defines placeholders
 ### Field with Regular Expressions
 
 Another way to perform validations is by using Regular Expressions or RegEx. This can be done using the "_matches_" attribute, which takes the desired regular expression and the message to be displayed if the expression is not met.
+
+{% tabs %}
+{% tab title="Visual Editor" %}
+
+{% endtab %}
+
+{% tab title="Code Editor" %}
+
+{% endtab %}
+{% endtabs %}
 
 ## Advanced Validations
 

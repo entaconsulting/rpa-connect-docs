@@ -12,13 +12,16 @@
 * [✨ Develop a Form](guide/develop-a-form/README.md)
   * [How to use a text field](guide/develop-a-form/how-to-use-a-text-field.md)
 * [🔃 Workflows](guide/workflows/README.md)
-  * [Create a Workflow](guide/workflows/create-a-workflow.md)
-  * [Use a Workflow](guide/workflows/use-a-workflow.md)
+  * [Create a Form with Stages](guide/workflows/create-a-form-with-stages.md)
+  * [Use Stages](guide/workflows/use-stages/README.md)
+    * [Use Stages with BluePrism](guide/workflows/use-stages/use-stages-with-blueprism.md)
   * [Connect](guide/workflows/connect.md)
 * [🧑💻 Administrator](guide/administrator/README.md)
   * [Workspace](guide/administrator/workspace.md)
-  * [Profiles](guide/administrator/profiles.md)
+  * [Profiles](guide/administrator/profiles/README.md)
+    * [Create ApiKey](guide/administrator/profiles/create-apikey.md)
   * [Users and Groups](guide/administrator/users-and-groups.md)
+* [Page 2](guide/page-2.md)
 
 ## Integrations
 
