@@ -6,7 +6,7 @@ description: >-
 
 # Inicio
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Haciendo click en el botón + de un formulario, se genera una nueva instancia del formulario y se muestra en pantalla para poder cargar datos.
 

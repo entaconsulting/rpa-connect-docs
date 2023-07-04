@@ -152,5 +152,5 @@ Luego hay que definir en el "layout" como se visualizan estos elementos del sche
 
 Con el schema y layout definido podemos ya visualizar en la seccion preview el formulario
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 

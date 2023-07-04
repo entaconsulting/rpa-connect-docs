@@ -22,7 +22,7 @@
 * [🧑💻 Administrator](guide/administrator/README.md)
   * [Create ApiKey](guide/administrator/create-apikey.md)
   * [Profiles](guide/administrator/profiles.md)
-    * [Workspace](guide/administrator/workspace.md)
+  * [Workspace](guide/administrator/workspace.md)
   * [Users and Groups](guide/administrator/users-and-groups.md)
 
 ## Integrations
