@@ -36,8 +36,6 @@ description: >-
 
 By using the "_required_" property, it is indicated that this field must be completed in order to submit the form.
 
-
-
 {% tabs %}
 {% tab title="Visual Editor" %}
 
@@ -203,7 +201,7 @@ The field can be configured to accept values only in a specific format of fixed 
 * `` ` `` - prevent symbols shift back
 
 {% code title="Schema" %}
-```
+```json
 "ArgentinePostalCode":{
 	"type": "text",
 	"inputMask":"a000[aaa]"

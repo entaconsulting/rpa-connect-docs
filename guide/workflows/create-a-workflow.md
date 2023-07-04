@@ -1,4 +1,11 @@
-# Create a Workflow
+---
+description: >-
+  Los stages permiten enlazar linealmente más de un formulario de manera
+  explícita en la plataforma, y permiten concentrar en un solo lugar todo un
+  flujo de trabajo.
+---
+
+# Create a Form with Stages
 
 Se utilizará el formulario que se generó en la sección [Create a Form](../getting-started/create-a-form.md), pero se necesitará un segundo formDefinition para establecerlo como un stage, para esto se puede utilizar la definición del siguiente formulario:
 
@@ -380,12 +387,16 @@ Dentro de la pestaña de Stages se debe presionar en Add Stage
 
 lo que generará que aparezcan 3 campos:
 
-1\.       Initial Stage Name: Por defecto es "Envio de Formulario".
+**Initial Stage Name:** Por defecto es "Envio de Formulario".
 
-2\.       Stage 1 Name: Ingresar un nombre representativo del Stage.
+**Stage 1 Name:** Ingresar un nombre representativo del Stage.
 
-3\.       Form Definition: Del desplegable se seleccionará el segundo formDef, Getting Started - Use a Stage.
+**Form Definition:** Del desplegable se seleccionará el segundo formDef, Getting Started - Use a Stage.
 
 Hacer click en "Save"
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+Al generar una instancia del formulario podemos ver el stage inicial.
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>

@@ -2,6 +2,6 @@
 layout: editorial
 ---
 
-# Connect
+# 👤 User App
 
 ##
