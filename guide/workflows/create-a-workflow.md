@@ -383,7 +383,7 @@ Se ingresará la pestaña de Stages
 
 Dentro de la pestaña de Stages se debe presionar en Add Stage
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 lo que generará que aparezcan 3 campos:
 
