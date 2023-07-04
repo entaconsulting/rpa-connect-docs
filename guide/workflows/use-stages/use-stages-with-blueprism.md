@@ -20,15 +20,22 @@ Agregar la hoja Generate Stage e ingresar los parametros de entrada.
 
 **state:** Estado que tendrá el formulario, puede ser Draft, Confirmed, Ended
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 Generar Formulario Inicial
 
 Acceder al formulario con el URL, cargar la información y enviar
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 Obtener la respuesta del formulario.
 
 Ejecutar la hoja Create a Stage.
 
+El stage le saldrá a la persona o grupo de personas en la [bandeja de entrada](../../user-app/bandeja-de-entrada.md)
+
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
+Haciendo click en el boton de la columna Acciones, se puede abrir el formulario para completarlo y enviarlo.
+
+\<IMAGEN FORMULARIO STAGE>

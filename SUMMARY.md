@@ -15,12 +15,12 @@
   * [Create a Form with Stages](guide/workflows/create-a-workflow.md)
   * [Use Stages](guide/workflows/use-a-workflow.md)
     * [Use Stages with BluePrism](guide/workflows/use-stages/use-stages-with-blueprism.md)
-* [👤 User App](guide/user-app/README.md)
+* [👤 User App](guide/workflows/connect.md)
   * [Bandeja de Entrada](guide/user-app/bandeja-de-entrada.md)
 * [🧑💻 Administrator](guide/administrator/README.md)
   * [Create ApiKey](guide/administrator/create-apikey.md)
   * [Profiles](guide/administrator/profiles.md)
-    * [Workspace](guide/administrator/profiles/workspace.md)
+    * [Workspace](guide/administrator/workspace.md)
   * [Users and Groups](guide/administrator/users-and-groups.md)
 
 ## Integrations

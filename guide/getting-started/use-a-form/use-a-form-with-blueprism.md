@@ -12,7 +12,7 @@ Una vez abierto el proceso RPA Connect - Getting Started  en BluePrism se deben 
 * ApiKey (dato obtenido previamente durante la [creación de ApiKey](../../administrator/create-apikey.md))
 * Host: Se debe completar con “app.rpaforms.com”
 
-<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Referenciar en el "Main Page" la página "Create a Form" y completar los inputs y outpus con los item data correspondiente.
 
@@ -36,7 +36,7 @@ Al ejecutar "Get Instance Response" hay dos caminos posibles:
   * La instancia fue respondida por lo que se dispondrá en el output "values" de "Get Instance Response" la información que fue suministrada en el formulario.
     *
 
-        <figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+        <figure><img src="../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
     *
 
         <figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
