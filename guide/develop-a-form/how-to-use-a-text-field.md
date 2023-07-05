@@ -237,7 +237,17 @@ Another way to perform validations is by using Regular Expressions or RegEx. Thi
 {% endtab %}
 
 {% tab title="Code Editor" %}
-
+{% code title="Schema" %}
+```json
+"employeeName": {
+      	"type": "text",
+	"matches": {
+		"message": "must begin with capital letter, can only have up to 20 english letters",
+		"regex": "^[A-Z][a-z]{0,19}$"
+	}
+}
+```
+{% endcode %}
 {% endtab %}
 {% endtabs %}
 
