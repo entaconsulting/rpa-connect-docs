@@ -11,6 +11,7 @@
     * [Use a Form with Power Automate](guide/getting-started/use-a-form/use-a-form-with-power-automate.md)
 * [✨ Develop a Form](guide/develop-a-form/README.md)
   * [How to use a text field](guide/develop-a-form/how-to-use-a-text-field.md)
+  * [How to use a Select Field](guide/develop-a-form/how-to-use-a-text-field-1.md)
 * [🔃 Workflows](guide/workflows/README.md)
   * [Create a Form with Stages](guide/workflows/create-a-workflow.md)
   * [Use Stages](guide/workflows/use-a-workflow.md)
