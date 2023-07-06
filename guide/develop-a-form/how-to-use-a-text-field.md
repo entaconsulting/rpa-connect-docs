@@ -7,9 +7,19 @@ description: >-
 
 # How to use a text field
 
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
 {% tabs %}
 {% tab title="Visual Editor" %}
+Click en ![](../../.gitbook/assets/image.png)
 
+Click dentro de Column, sale un barra roja.
+
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+Se genera el Field, a la derecha aparece un banner con distintas propiedades para parametrizar el Field.
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Code Editor" %}
@@ -38,7 +48,9 @@ By using the "_required_" property, it is indicated that this field must be comp
 
 {% tabs %}
 {% tab title="Visual Editor" %}
+<figure><img src="../../.gitbook/assets/VisualEditor_Field_Text_Required_False.png" alt=""><figcaption><p>Required False</p></figcaption></figure>
 
+<figure><img src="../../.gitbook/assets/VisualEditor_Field_Text_Required_True.png" alt=""><figcaption><p>Required True</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Code Editor" %}
@@ -57,12 +69,8 @@ By using the "_required_" property, it is indicated that this field must be comp
 If a field needs to have a fixed value that cannot be modified by the user, it can be configured using the "_readOnly_" property, which accepts a boolean value or a boolean expression.
 
 {% tabs %}
-{% tab title="Visual Editor" %}
-
-{% endtab %}
-
 {% tab title="Code Editor" %}
-### Boolean Value
+#### Boolean Value
 
 <pre class="language-json" data-title="Layout"><code class="lang-json">{
 	"elements": [
@@ -75,7 +83,7 @@ If a field needs to have a fixed value that cannot be modified by the user, it c
 }
 </code></pre>
 
-### Boolean Expression
+#### Boolean Expression
 
 <pre data-title="Schema"><code>{
 	"isVisible": {
@@ -132,10 +140,6 @@ To work with these properties, there are different attributes available:
 If a text field can only have a specific set of valid data, the "_whitelist_" property can be used. It accepts an array of allowed texts. If a value is entered that is not in this list, a validation will be triggered, indicating the valid options.
 
 {% tabs %}
-{% tab title="Visual Editor" %}
-
-{% endtab %}
-
 {% tab title="Code Editor" %}
 {% code title="Schema" %}
 ```json
@@ -153,17 +157,11 @@ If a text field can only have a specific set of valid data, the "_whitelist_" pr
 {% endtab %}
 {% endtabs %}
 
-
-
 ### Field with Set of Rejected Values
 
 Following the same logic as the previous point, the "_blacklist_" property can be used to list a group of data that cannot be entered.
 
 {% tabs %}
-{% tab title="Visual Editor" %}
-
-{% endtab %}
-
 {% tab title="Code Editor" %}
 {% code title="Schema" %}
 ```json
@@ -186,10 +184,6 @@ Following the same logic as the previous point, the "_blacklist_" property can b
 The field can be configured to accept values only in a specific format of fixed size. This can be done using the "_inputMask_" property.
 
 {% tabs %}
-{% tab title="Visual Editor" %}
-
-{% endtab %}
-
 {% tab title="Code Editor" %}
 "_inputMask" property_ defines a pattern mask using the following definitions
 
@@ -232,18 +226,14 @@ other way of defining a mask is using "_charOptions" which_ defines placeholders
 Another way to perform validations is by using Regular Expressions or RegEx. This can be done using the "_matches_" attribute, which takes the desired regular expression and the message to be displayed if the expression is not met.
 
 {% tabs %}
-{% tab title="Visual Editor" %}
-
-{% endtab %}
-
 {% tab title="Code Editor" %}
-{% code title="Schema" %}
+{% code title="Schema" overflow="wrap" %}
 ```json
 "employeeName": {
       	"type": "text",
 	"matches": {
 		"message": "must begin with capital letter, can only have up to 20 english letters",
-		"regex": "^[A-Z][a-z]{0,19}$"
+		"regex": "^[A-Z][a-z]{0,19}$"son
 	}
 }
 ```
@@ -253,4 +243,14 @@ Another way to perform validations is by using Regular Expressions or RegEx. Thi
 
 ## Advanced Validations
 
-&#x20;
+En el caso de necesitar una validación más especifica o compleja, está el atributo validationExpressions, donde podemos definir una o más validaciones. Cada validación cuenta con los atributos message y expression, en message se guarda el mensaje que saltará cuando se cumpla la condición definida en expression. Para comparar el campo de texto por igualdad contra un texto definido:
+
+{% tabs %}
+{% tab title="Code Editor" %}
+{% code title="Schema" %}
+```json
+// Some code
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}

@@ -20,7 +20,7 @@ Agregar la hoja Generate Stage e ingresar los parametros de entrada.
 
 **state:** Estado que tendrá el formulario, puede ser Draft, Confirmed, Ended
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 Generar Formulario Inicial
 

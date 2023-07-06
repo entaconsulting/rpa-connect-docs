@@ -12,7 +12,7 @@ Una vez abierto el proceso RPA Connect - Getting Started  en BluePrism se deben 
 * ApiKey (dato obtenido previamente durante la [creación de ApiKey](../../administrator/create-apikey.md))
 * Host: Se debe completar con “app.rpaforms.com”
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 Referenciar en el "Main Page" la página "Create a Form" y completar los inputs y outpus con los item data correspondiente.
 
