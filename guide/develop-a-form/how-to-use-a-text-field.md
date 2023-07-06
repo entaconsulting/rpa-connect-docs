@@ -11,7 +11,7 @@ description: >-
 
 {% tabs %}
 {% tab title="Visual Editor" %}
-Click en ![](<../../.gitbook/assets/image (1).png>)
+Click en ![](../../.gitbook/assets/image.png)
 
 Click dentro de Column, sale un barra roja.
 
@@ -69,10 +69,6 @@ By using the "_required_" property, it is indicated that this field must be comp
 If a field needs to have a fixed value that cannot be modified by the user, it can be configured using the "_readOnly_" property, which accepts a boolean value or a boolean expression.
 
 {% tabs %}
-{% tab title="Visual Editor" %}
-
-{% endtab %}
-
 {% tab title="Code Editor" %}
 #### Boolean Value
 
@@ -128,7 +124,7 @@ To work with these properties, there are different attributes available:
 
 <figure><img src="../../.gitbook/assets/VisualEditor_Field_Text_Max.png" alt=""><figcaption><p>Max</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Min</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/VisualEditor_Field_Text_Min.png" alt=""><figcaption><p>Min</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Code Editor" %}
@@ -148,6 +144,10 @@ To work with these properties, there are different attributes available:
 If a text field can only have a specific set of valid data, the "_whitelist_" property can be used. It accepts an array of allowed texts. If a value is entered that is not in this list, a validation will be triggered, indicating the valid options.
 
 {% tabs %}
+{% tab title="Visual Editor" %}
+<figure><img src="../../.gitbook/assets/VisualEditor_Field_Text_Whitelist.png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
 {% tab title="Code Editor" %}
 {% code title="Schema" %}
 ```json
@@ -155,7 +155,8 @@ If a text field can only have a specific set of valid data, the "_whitelist_" pr
 	"employeeName": {
 		"type": "text",
 			"whitelist": [
-				"John Doe"
+				"John Doe",
+				"Jane Doe"
 			]
 		}
 
@@ -170,6 +171,10 @@ If a text field can only have a specific set of valid data, the "_whitelist_" pr
 Following the same logic as the previous point, the "_blacklist_" property can be used to list a group of data that cannot be entered.
 
 {% tabs %}
+{% tab title="Visual Editor" %}
+
+{% endtab %}
+
 {% tab title="Code Editor" %}
 {% code title="Schema" %}
 ```json
@@ -177,7 +182,8 @@ Following the same logic as the previous point, the "_blacklist_" property can b
 	"employeeName": {
 		"type": "text",
 			"blacklist": [
-				"John Doe"
+				"John Doe",
+				"Jane Doe"
 			]
 		}
 
