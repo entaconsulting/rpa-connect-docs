@@ -11,7 +11,7 @@ description: >-
 
 {% tabs %}
 {% tab title="Visual Editor" %}
-Click en ![](../../.gitbook/assets/image.png)
+Click en ![](<../../.gitbook/assets/image (1).png>)
 
 Click dentro de Column, sale un barra roja.
 
@@ -69,6 +69,10 @@ By using the "_required_" property, it is indicated that this field must be comp
 If a field needs to have a fixed value that cannot be modified by the user, it can be configured using the "_readOnly_" property, which accepts a boolean value or a boolean expression.
 
 {% tabs %}
+{% tab title="Visual Editor" %}
+
+{% endtab %}
+
 {% tab title="Code Editor" %}
 #### Boolean Value
 
@@ -120,7 +124,11 @@ To work with these properties, there are different attributes available:
 
 {% tabs %}
 {% tab title="Visual Editor" %}
+<figure><img src="../../.gitbook/assets/VisualEditor_Field_Text_Length.png" alt=""><figcaption><p>Length</p></figcaption></figure>
 
+<figure><img src="../../.gitbook/assets/VisualEditor_Field_Text_Max.png" alt=""><figcaption><p>Max</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Min</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Code Editor" %}
