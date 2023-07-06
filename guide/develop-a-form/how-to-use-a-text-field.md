@@ -19,7 +19,7 @@ Click dentro de Column, sale un barra roja.
 
 Se genera el Field, a la derecha aparece un banner con distintas propiedades para parametrizar el Field.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Code Editor" %}
@@ -42,13 +42,39 @@ Se genera el Field, a la derecha aparece un banner con distintas propiedades par
 {% endtab %}
 {% endtabs %}
 
+## User Friendly Name
 
-
-## Change size of field
+Por defecto, los campos se muestran con el nombre del dato definido, que en ocasiones puede no ser amigable al usuario final, en ese caso, existe la propiedad _label_ que permite modificar el nombre por uno más acorde.
 
 {% tabs %}
 {% tab title="Visual Editor" %}
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Label</p></figcaption></figure>
+{% endtab %}
 
+{% tab title="Code Editor" %}
+{% code title="Layout" %}
+```json
+{
+	"elements": [
+		{
+			"type": "field",
+			"name": "employeeName",
+			"label": "Employee Name"
+		}
+	]
+}
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
+
+## Change size
+
+Por defecto, los campos ocupan todo el espacio horizontal disponible (Usando el sistema de grillas de 12 columnas). En caso de querer tener más control de cómo se muestran los elementos, contamos con la propiedad _size_ que puede tomar valores entre 1 y 12.
+
+{% tabs %}
+{% tab title="Visual Editor" %}
+<figure><img src="../../.gitbook/assets/VisualEditor_Field_Text_Size.png" alt=""><figcaption><p>Size dropdown</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Code Editor" %}
@@ -68,7 +94,7 @@ Se genera el Field, a la derecha aparece un banner con distintas propiedades par
 {% endtab %}
 {% endtabs %}
 
-## Make field Read-only
+## Make it Read-only
 
 If a field needs to have a fixed value that cannot be modified by the user, it can be configured using the "_readOnly_" property, which accepts a boolean value or a boolean expression.
 
@@ -112,7 +138,7 @@ If a field needs to have a fixed value that cannot be modified by the user, it c
 {% endtab %}
 {% endtabs %}
 
-## Make field invisible&#x20;
+## Make it invisible&#x20;
 
 Se puede hacer que un campo sea o no visible con la propiedad _visibility,_ recibe valores booleanos, o una expresión que devuelva un valor booleano, lo que permite hacer visible en función de otros campos definidos.
 
