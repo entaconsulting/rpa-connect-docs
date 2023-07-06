@@ -42,29 +42,33 @@ Se genera el Field, a la derecha aparece un banner con distintas propiedades par
 {% endtab %}
 {% endtabs %}
 
-## Required Field
 
-By using the "_required_" property, it is indicated that this field must be completed in order to submit the form.
+
+## Change size of field
 
 {% tabs %}
 {% tab title="Visual Editor" %}
-<figure><img src="../../.gitbook/assets/VisualEditor_Field_Text_Required_False.png" alt=""><figcaption><p>Required False</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/VisualEditor_Field_Text_Required_True.png" alt=""><figcaption><p>Required True</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Code Editor" %}
-<pre class="language-json" data-title="Schema"><code class="lang-json">{
-	"employeeName": {
-		"type": "text",
-<strong>		"required": true
-</strong>	}
+{% code title="Layout" %}
+```json
+{
+	"elements": [
+		{
+			"type": "field",
+			"name": "employeeName",
+			"size":12
+		}
+	]
 }
-</code></pre>
+```
+{% endcode %}
 {% endtab %}
 {% endtabs %}
 
-## Read-only Field
+## Make field Read-only
 
 If a field needs to have a fixed value that cannot be modified by the user, it can be configured using the "_readOnly_" property, which accepts a boolean value or a boolean expression.
 
@@ -85,8 +89,8 @@ If a field needs to have a fixed value that cannot be modified by the user, it c
 
 #### Boolean Expression
 
-<pre data-title="Schema"><code>{
-	"isVisible": {
+<pre class="language-json" data-title="Schema"><code class="lang-json">{
+	"isEditable": {
 <strong>		"type": "boolean",
 </strong>	},
 	"employeeName": {
@@ -95,12 +99,12 @@ If a field needs to have a fixed value that cannot be modified by the user, it c
 }
 </code></pre>
 
-<pre data-title="Layout"><code>{
+<pre class="language-json" data-title="Layout"><code class="lang-json">{
 	"elements": [
 		{
 			"type": "field",
 			"name": "employeeName",
-<strong>			"readonly": "isVisible"
+<strong>			"readonly": "not(isEditable)"
 </strong>		}
 	]
 }
@@ -108,7 +112,82 @@ If a field needs to have a fixed value that cannot be modified by the user, it c
 {% endtab %}
 {% endtabs %}
 
+## Make field invisible&#x20;
+
+Se puede hacer que un campo sea o no visible con la propiedad _visibility,_ recibe valores booleanos, o una expresión que devuelva un valor booleano, lo que permite hacer visible en función de otros campos definidos.
+
+{% tabs %}
+{% tab title="Code Editor" %}
+#### Boolean Value
+
+{% code title="Layout" %}
+```json
+{
+	"elements": [
+		{
+			"type": "field",
+			"name": "employeeName",
+			"visibility": true
+		}
+	]
+}
+```
+{% endcode %}
+
+#### Boolean Expression
+
+{% code title="Schema" %}
+```json
+{
+	"isVisible": {
+		"type": "boolean",
+	},
+	"employeeName": {
+		"type": "text",
+	}
+}
+```
+{% endcode %}
+
+{% code title="Layout" %}
+```json
+{
+	"elements": [
+		{
+			"type": "field",
+			"name": "employeeName",
+			"visibility": "isVisible"
+		}
+	]
+}
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
+
 ## Validations
+
+### Required Field
+
+By using the "_required_" property, it is indicated that this field must be completed in order to submit the form.
+
+{% tabs %}
+{% tab title="Visual Editor" %}
+<figure><img src="../../.gitbook/assets/VisualEditor_Field_Text_Required_False.png" alt=""><figcaption><p>Required False</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/VisualEditor_Field_Text_Required_True.png" alt=""><figcaption><p>Required True</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Code Editor" %}
+<pre class="language-json" data-title="Schema"><code class="lang-json">{
+	"employeeName": {
+		"type": "text",
+<strong>		"required": true
+</strong>	}
+}
+</code></pre>
+{% endtab %}
+{% endtabs %}
 
 ### Field with Length Restrictions
 
@@ -172,7 +251,7 @@ Following the same logic as the previous point, the "_blacklist_" property can b
 
 {% tabs %}
 {% tab title="Visual Editor" %}
-
+<figure><img src="../../.gitbook/assets/VisualEditor_Field_Text_Blacklist.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Code Editor" %}
@@ -259,12 +338,3 @@ Another way to perform validations is by using Regular Expressions or RegEx. Thi
 
 En el caso de necesitar una validación más especifica o compleja, está el atributo validationExpressions, donde podemos definir una o más validaciones. Cada validación cuenta con los atributos message y expression, en message se guarda el mensaje que saltará cuando se cumpla la condición definida en expression. Para comparar el campo de texto por igualdad contra un texto definido:
 
-{% tabs %}
-{% tab title="Code Editor" %}
-{% code title="Schema" %}
-```json
-// Some code
-```
-{% endcode %}
-{% endtab %}
-{% endtabs %}
