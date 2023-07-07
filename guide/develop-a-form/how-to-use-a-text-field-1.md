@@ -81,6 +81,8 @@ Se puede hacer que un campo sea o no visible con la propiedad _visibility,_ reci
 
 #### Boolean Value
 
+
+
 {% code title="Layout" %}
 ```json
 {
@@ -96,6 +98,10 @@ Se puede hacer que un campo sea o no visible con la propiedad _visibility,_ reci
 {% endcode %}
 
 #### Boolean Expression
+
+<figure><img src="../../.gitbook/assets/VisualEditor_Field_Date_Visibility_True.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/VisualEditor_Field_Date_Visibility_False.png" alt=""><figcaption></figcaption></figure>
 
 {% code title="Schema" %}
 ```json
@@ -130,21 +136,7 @@ Se puede hacer que un campo sea o no visible con la propiedad _visibility,_ reci
 
 Usando la propiedad "_required_", se indica que el campo debe ser completado para poder enviar el formulario.
 
-<figure><img src="../../.gitbook/assets/VisualEditor_Field_Text_Required_False.png" alt=""><figcaption><p>Required False</p></figcaption></figure>
-
 <figure><img src="../../.gitbook/assets/VisualEditor_Field_Text_Required_True.png" alt=""><figcaption><p>Required True</p></figcaption></figure>
-
-### Field with Set of Accepted Values
-
-If a text field can only have a specific set of valid data, the "_whitelist_" property can be used. It accepts an array of allowed texts. If a value is entered that is not in this list, a validation will be triggered, indicating the valid options.
-
-<figure><img src="../../.gitbook/assets/VisualEditor_Field_Text_Whitelist.png" alt=""><figcaption></figcaption></figure>
-
-### Field with Set of Rejected Values
-
-Following the same logic as the previous point, the "_blacklist_" property can be used to list a group of data that cannot be entered.
-
-<figure><img src="../../.gitbook/assets/VisualEditor_Field_Text_Blacklist.png" alt=""><figcaption></figcaption></figure>
 
 ## Advanced Validations
 
