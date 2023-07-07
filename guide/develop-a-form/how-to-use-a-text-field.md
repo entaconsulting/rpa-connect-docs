@@ -11,7 +11,7 @@ description: >-
 
 {% tabs %}
 {% tab title="Visual Editor" %}
-Click en ![](../../.gitbook/assets/image.png)
+Click en ![](<../../.gitbook/assets/image (2).png>)
 
 Click dentro de Column, sale un barra roja.
 
@@ -48,7 +48,7 @@ Por defecto, los campos se muestran con el nombre del dato definido, que en ocas
 
 {% tabs %}
 {% tab title="Visual Editor" %}
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Label</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>Label</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Code Editor" %}

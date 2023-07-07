@@ -1,20 +1,20 @@
 # How to use a date Field
 
-Click en ![](../../.gitbook/assets/image.png)
+Click en ![](<../../.gitbook/assets/image (2).png>)
 
 Click dentro de Column, sale un barra roja.
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-Se genera el Field, a la derecha aparece un banner con distintas propiedades para parametrizar el Field.
+Se genera el Field, a la derecha aparece un banner con distintas propiedades para parametrizar el Field. Se selecciona Type date.
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/VisualEditor_Field_Date_Type.png" alt=""><figcaption></figcaption></figure>
 
 ## User Friendly Name
 
 Por defecto, los campos se muestran con el nombre del dato definido, que en ocasiones puede no ser amigable al usuario final, en ese caso, existe la propiedad _label_ que permite modificar el nombre por uno más acorde.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Label</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/VisualEditor_Field_Date_Label.png" alt=""><figcaption></figcaption></figure>
 
 ## Change size
 
@@ -24,15 +24,19 @@ Por defecto, los campos ocupan todo el espacio horizontal disponible (Usando el 
 
 ## Make it Read-only
 
-If a field needs to have a fixed value that cannot be modified by the user, it can be configured using the "_readOnly_" property, which accepts a boolean value or a boolean expression.
+Si el campo necesita tener un valor que no pueda ser modificado por quien completa el formulario, se puede configurar con la propiedad readonly, recibe un valor booleano o expresión booleana.
+
+El campo aparesera grisado y con una línea punteada.
 
 #### Boolean Value
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 <pre class="language-json" data-title="Layout"><code class="lang-json">{
 	"elements": [
 		{
 			"type": "field",
-			"name": "employeeName",
+			"name": "date",
 <strong>			"readonly": true
 </strong>		}
 	]
@@ -41,21 +45,30 @@ If a field needs to have a fixed value that cannot be modified by the user, it c
 
 #### Boolean Expression
 
+<figure><img src="../../.gitbook/assets/VisualEditor_Field_Date_Readonly_False.png" alt=""><figcaption><p>Not readonly</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/VisualEditor_Field_Date_Readonly_True.png" alt=""><figcaption><p>Readonly</p></figcaption></figure>
+
 <pre class="language-json" data-title="Schema"><code class="lang-json">{
 	"isEditable": {
 <strong>		"type": "boolean",
 </strong>	},
-	"employeeName": {
-		"type": "text",
+	"date": {
+		"type": "date",
 	}
 }
 </code></pre>
 
 <pre class="language-json" data-title="Layout"><code class="lang-json">{
 	"elements": [
+
 		{
 			"type": "field",
-			"name": "employeeName",
+			"name": "isEditable"
+		},
+		{
+			"type": "field",
+			"name": "date",
 <strong>			"readonly": "not(isEditable)"
 </strong>		}
 	]
@@ -115,7 +128,7 @@ Se puede hacer que un campo sea o no visible con la propiedad _visibility,_ reci
 
 ### Required Field
 
-By using the "_required_" property, it is indicated that this field must be completed in order to submit the form.
+Usando la propiedad "_required_", se indica que el campo debe ser completado para poder enviar el formulario.
 
 <figure><img src="../../.gitbook/assets/VisualEditor_Field_Text_Required_False.png" alt=""><figcaption><p>Required False</p></figcaption></figure>
 
@@ -137,3 +150,14 @@ Following the same logic as the previous point, the "_blacklist_" property can b
 
 En el caso de necesitar una validación más especifica o compleja, está el atributo validationExpressions, donde podemos definir una o más validaciones. Cada validación cuenta con los atributos message y expression, en message se guarda el mensaje que saltará cuando se cumpla la condición definida en expression. Para comparar el campo de texto por igualdad contra un texto definido:
 
+Para validar que un campo fecha no es igual que otro campo fecha
+
+"expression": "equal(endDate, beginDate)"
+
+Para validar que un campo fecha es mayor o igual que otro campo fecha
+
+"expression": "not(largerEq(endDate, beginDate))"
+
+Para validar que un campo fecha es menor o igual que otro campo fecha
+
+"expression": "not(smallerEq(beginDate, endDate))"
