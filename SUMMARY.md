@@ -20,7 +20,7 @@
   * [Inicio](guide/user-app/inicio.md)
   * [Envíos](guide/user-app/envios.md)
   * [Bandeja de Entrada](guide/user-app/bandeja-de-entrada.md)
-* [🧑💻 Administrator](guide/administrator/README.md)
+* [🧑💻 🧑💻 Administrator](guide/administrator/README.md)
   * [Create ApiKey](guide/administrator/create-apikey.md)
   * [Profiles](guide/administrator/profiles.md)
   * [Workspace](guide/administrator/workspace.md)
