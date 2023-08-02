@@ -11,7 +11,7 @@ description: >-
 
 {% tabs %}
 {% tab title="Visual Editor" %}
-Click en ![](<../../.gitbook/assets/image (2).png>)
+Click en ![](../../.gitbook/assets/VisualEditor\_Action\_InsertField.png)
 
 Click dentro de Column, sale un barra roja.
 

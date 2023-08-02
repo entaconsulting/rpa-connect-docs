@@ -1,6 +1,6 @@
-# How to use a date Field
+# How to use a date field
 
-Se debe presionar el botón ![](<../../.gitbook/assets/image (2).png>)
+Se debe presionar el botón ![](../../.gitbook/assets/VisualEditor\_Action\_InsertField.png)
 
 Luego dentro de Column, se visualizará una linea roja.
 
