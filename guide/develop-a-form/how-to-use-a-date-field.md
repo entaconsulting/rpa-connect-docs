@@ -1,32 +1,32 @@
 # How to use a date Field
 
-Click en ![](<../../.gitbook/assets/image (2).png>)
+Se debe presionar el botón ![](<../../.gitbook/assets/image (2).png>)
 
-Click dentro de Column, sale un barra roja.
+Luego dentro de Column, se visualizará una linea roja.
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-Se genera el Field, a la derecha aparece un banner con distintas propiedades para parametrizar el Field. Se selecciona Type date.
+Al generar el campo, a la derecha aparece un banner con distintas propiedades para parametrizarlo. Se debe seleccionar el tipo _'date'_.
 
 <figure><img src="../../.gitbook/assets/VisualEditor_Field_Date_Type.png" alt=""><figcaption></figcaption></figure>
 
 ## User Friendly Name
 
-Por defecto, los campos se muestran con el nombre del dato definido, que en ocasiones puede no ser amigable al usuario final, en ese caso, existe la propiedad _label_ que permite modificar el nombre por uno más acorde.
+Por defecto, los campos se muestran con el nombre del dato definido, en ocasiones puede no ser amigable al usuario final. En ese caso, existe la propiedad _label_ que permite modificar el nombre por uno más acorde.
 
 <figure><img src="../../.gitbook/assets/VisualEditor_Field_Date_Label.png" alt=""><figcaption></figcaption></figure>
 
 ## Change size
 
-Por defecto, los campos ocupan todo el espacio horizontal disponible (Usando el sistema de grillas de 12 columnas). En caso de querer tener más control de cómo se muestran los elementos, contamos con la propiedad _size_ que puede tomar valores entre 1 y 12.
+Por defecto, los campos ocupan todo el espacio horizontal disponible (usando el sistema de grillas de 12 columnas). En caso de querer tener más control de cómo se muestran los elementos, se cuenta con la propiedad _size_ que puede tomar valores entre 1 y 12.
 
 <figure><img src="../../.gitbook/assets/VisualEditor_Field_Text_Size.png" alt=""><figcaption><p>Size dropdown</p></figcaption></figure>
 
 ## Make it Read-only
 
-Si el campo necesita tener un valor que no pueda ser modificado por quien completa el formulario, se puede configurar con la propiedad readonly, recibe un valor booleano o expresión booleana.
+Si el campo necesita tener un valor que no pueda ser modificado por quien completa el formulario, se puede configurar con la propiedad _readonly._ Esta recibe un valor booleano o expresión booleana.
 
-El campo aparesera grisado y con una línea punteada.
+El campo aparecerá grisado y con una línea punteada.
 
 #### Boolean Value
 
@@ -77,7 +77,7 @@ El campo aparesera grisado y con una línea punteada.
 
 ## Make it invisible&#x20;
 
-Se puede hacer que un campo sea o no visible con la propiedad _visibility,_ recibe valores booleanos, o una expresión que devuelva un valor booleano, lo que permite hacer visible en función de otros campos definidos.
+Se puede hacer que un campo sea o no visible con la propiedad _visibility,_ la cual recibe valores booleanos, o una expresión que devuelva un valor booleano, lo que permite hacer visible en función de otros campos definidos.
 
 #### Boolean Value
 
