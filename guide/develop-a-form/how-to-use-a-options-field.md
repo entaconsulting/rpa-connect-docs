@@ -20,10 +20,14 @@ Hacer click en la barra violeta, se generará un nuevo campo.
 
 <figure><img src="../../.gitbook/assets/VisualEditor_Field.png" alt=""><figcaption></figcaption></figure>
 
+Ingresar un nombre al campo
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+
 Seleccionar el tipo _options_
 
 <figure><img src="../../.gitbook/assets/VisualEditor_Types_Option.png" alt=""><figcaption></figcaption></figure>
 
 Hacer click en _Save_
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/VisualEditor_Field_Option_Save.png" alt=""><figcaption></figcaption></figure>
