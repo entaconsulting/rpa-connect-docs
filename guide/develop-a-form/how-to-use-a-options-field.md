@@ -20,14 +20,22 @@ Hacer click en la barra violeta, se generará un nuevo campo.
 
 <figure><img src="../../.gitbook/assets/VisualEditor_Field.png" alt=""><figcaption></figcaption></figure>
 
-Ingresar un nombre al campo
-
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
-
-Seleccionar el tipo _options_
+Ingresar un nombre al campo y seleccionar el tipo _options_
 
 <figure><img src="../../.gitbook/assets/VisualEditor_Types_Option.png" alt=""><figcaption></figcaption></figure>
 
-Hacer click en _Save_
+Hacer click en _SAVE_
 
 <figure><img src="../../.gitbook/assets/VisualEditor_Field_Option_Save.png" alt=""><figcaption></figcaption></figure>
+
+Hacer en click en _Add Option_
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+Aparece una fila con el valor _Option 1_ por defecto
+
+<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+
+Ingresar las opciones requeridas
+
+<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
