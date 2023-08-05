@@ -63,3 +63,23 @@ Agregar las opciones a mostrar cuando el campo _continent_ tenga el valor _Ameri
 Hacer click en _+_ para agregar más opciones condicionales a un valor del campo _continent_.
 
 <figure><img src="../../.gitbook/assets/VisualEditor_Field_Option_AddNewValue (1).png" alt=""><figcaption></figcaption></figure>
+
+## Change how the field is displayed
+
+Con la propiedad _Variant_ en _Select_ se muestra como una lista de opciones
+
+<figure><img src="../../.gitbook/assets/VE_Field_Option_Variant_Select.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/VE_Field_Option_Variant_Select_Displayed.png" alt=""><figcaption></figcaption></figure>
+
+Con la propiedad _Variant_ en _Options_ se muestra como un conjuto de botones.
+
+<figure><img src="../../.gitbook/assets/VE_Field_Option_Variant_Options.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/VisualEditor_Field_Options.png" alt=""><figcaption></figcaption></figure>
+
+Con la propiedad _Variant_ en _ComboBox_ se muestra como una lista de opciones buscables.
+
+<figure><img src="../../.gitbook/assets/VE_Field_Option_Variant_ComboBox.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/VE_Field_Option_Variant_ComboBox.png" alt=""><figcaption></figcaption></figure>
