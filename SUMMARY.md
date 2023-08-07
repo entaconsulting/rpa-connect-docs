@@ -1,6 +1,6 @@
 # Table of contents
 
-* [RPA Forms](README.md)
+* [RPA Connect](README.md)
 
 ## Guide
 
