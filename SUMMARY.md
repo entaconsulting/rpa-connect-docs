@@ -34,17 +34,6 @@
 * [🔗 Authentication](integrations/authentication.md)
 * [🔗 Swagger](integrations/swagger.md)
 
-## Use Cases
-
-* [🎨 Examples](use-cases/examples.md)
-* [🖥 Success stories](use-cases/success-stories.md)
-
 ## Contact
 
 * [🎨 Support](contact/support.md)
-* [🖥 About Us](contact/about-us.md)
-* [🖥 Sales](contact/sales.md)
-
-## Group 1
-
-* [Page 1](group-1/page-1.md)

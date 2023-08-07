@@ -6,7 +6,15 @@ description: >-
 
 # How to use a options field
 
+<div>
+
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/VE_Field_Option_Variant_ComboBox_Displayed.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ## Create a options field
 
