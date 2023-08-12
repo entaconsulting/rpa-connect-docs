@@ -31,9 +31,9 @@
 
 * [⚙ Setup](integrations/setup.md)
 * [🔗 Connectors](integrations/connectors.md)
-* [🔗 Authentication](integrations/authentication.md)
-* [🔗 Swagger](integrations/swagger.md)
+* [🔑 Authentication](integrations/authentication.md)
+* [💻 Swagger](integrations/swagger.md)
 
 ## Contact
 
-* [🎨 Support](contact/support.md)
+* [👥 Support](contact/support.md)

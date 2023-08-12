@@ -1,4 +1,4 @@
-# 🔗 Swagger
+# 💻 Swagger
 
 ## How Projects work
 

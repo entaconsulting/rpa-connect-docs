@@ -1,4 +1,4 @@
-# 🔗 Authentication
+# 🔑 Authentication
 
 ## How Projects work
 
