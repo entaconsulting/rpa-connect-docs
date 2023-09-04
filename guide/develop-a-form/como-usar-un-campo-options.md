@@ -32,11 +32,9 @@ Ingresar un nombre al campo y seleccionar el tipo _options_
 
 <figure><img src="../../.gitbook/assets/VisualEditor_Types_Option.png" alt=""><figcaption></figcaption></figure>
 
-Hacer click en _SAVE_
+Hacer click en _OK_
 
 <figure><img src="../../.gitbook/assets/VisualEditor_Field_Option_Save.png" alt=""><figcaption></figcaption></figure>
-
-
 
 Hacer en click en _Add Option_
 
@@ -72,6 +70,38 @@ Hacer click en _+_ para agregar más opciones condicionales a un valor del campo
 
 <figure><img src="../../.gitbook/assets/VisualEditor_Field_Option_AddNewValue (1).png" alt=""><figcaption></figcaption></figure>
 
+## Cambiar la etiqueta del campo options
+
+Con la propiedad _Label_ se modifica la etiqueta del campo, que por defecto es el nombre del campo.
+
+<figure><img src="../../.gitbook/assets/VE_Field_Option_Label.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/VE_Field_Option_Label_Displayed.png" alt=""><figcaption></figcaption></figure>
+
+## Cambiar el tamaño del campo options
+
+Con la propiedad _Size_ se puede cambiar el tamaño de un campo. Se puede escoger un valor entre 1 y 12.
+
+_**Size 12**_
+
+<figure><img src="../../.gitbook/assets/VE_Field_Option_Size_12.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/VE_Field_Option_Size_12_Displayed.png" alt=""><figcaption></figcaption></figure>
+
+_**Size 6**_
+
+<figure><img src="../../.gitbook/assets/VE_Field_Option_Size_6.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/VE_Field_Option_Size_6_Displayed.png" alt=""><figcaption></figcaption></figure>
+
+## Hacer requerido el campo options
+
+Con la propiedad _Required_ en _True_ se valida que el campo no esté vacío
+
+<figure><img src="../../.gitbook/assets/VE_Field_Option_Requiered_True.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/VE_Field_Option_Requiered_True_Displayed.png" alt=""><figcaption></figcaption></figure>
+
 ## Cambiar como se muestra el campo options
 
 Con la propiedad _Variant_ en _Select_ se muestra como una lista de opciones
@@ -90,4 +120,14 @@ Con la propiedad _Variant_ en _ComboBox_ se muestra como una lista de opciones b
 
 <figure><img src="../../.gitbook/assets/VE_Field_Option_Variant_ComboBox.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/VE_Field_Option_Variant_ComboBox.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/VE_Field_Option_Variant_ComboBox_Displayed.png" alt=""><figcaption></figcaption></figure>
+
+
+
+### Hacer de solo lectura el campo options
+
+Con la propiedad _Readonly_ activada se deshabilita el ingreso o modificacion de los datos de un campo. El campo aparece grisado y con una linea punteada.
+
+<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
