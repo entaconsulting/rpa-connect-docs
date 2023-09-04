@@ -12,7 +12,7 @@
 * [✨ Develop a Form](guide/develop-a-form/README.md)
   * [How to use a text field](guide/develop-a-form/how-to-use-a-text-field.md)
   * [How to use a date field](guide/develop-a-form/how-to-use-a-date-field.md)
-  * [How to use a options field](guide/develop-a-form/how-to-use-a-options-field.md)
+  * [Como usar un campo options](guide/develop-a-form/como-usar-un-campo-options.md)
 * [🔃 Workflows](guide/workflows/README.md)
   * [Create a Form with Stages](guide/workflows/create-a-workflow.md)
   * [Use Stages](guide/workflows/use-a-workflow.md)

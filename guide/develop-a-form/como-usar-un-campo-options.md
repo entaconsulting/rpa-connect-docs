@@ -4,7 +4,7 @@ description: >-
   lista acotada de valores posibles.
 ---
 
-# How to use a options field
+# Como usar un campo options
 
 <div>
 
@@ -16,7 +16,7 @@ description: >-
 
 </div>
 
-## Create a options field
+## Crear un campo options
 
 Click en ![](../../.gitbook/assets/VisualEditor\_Action\_InsertField.png)
 
@@ -50,7 +50,7 @@ Ingresar las opciones requeridas
 
 <figure><img src="../../.gitbook/assets/VisualEditor_Field_Option_Options.png" alt=""><figcaption></figcaption></figure>
 
-## Make options conditional to other field
+## Hacer un campo options condicional a otro campo
 
 En ocasiones necesitamos que la selección de un campo me restrinja las opciones a escoger en otro campo.
 
@@ -72,7 +72,7 @@ Hacer click en _+_ para agregar más opciones condicionales a un valor del campo
 
 <figure><img src="../../.gitbook/assets/VisualEditor_Field_Option_AddNewValue (1).png" alt=""><figcaption></figcaption></figure>
 
-## Change how the field is displayed
+## Cambiar como se muestra el campo options
 
 Con la propiedad _Variant_ en _Select_ se muestra como una lista de opciones
 
