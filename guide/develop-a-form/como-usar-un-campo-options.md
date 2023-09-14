@@ -30,11 +30,11 @@ Hacer click en la barra violeta, se generará un nuevo campo.
 
 Ingresar un nombre al campo y seleccionar el tipo _options_
 
-<figure><img src="../../.gitbook/assets/VE_Types_Option.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/VisualEditor_Types_Option.png" alt=""><figcaption></figcaption></figure>
 
 Hacer click en _OK_
 
-<figure><img src="../../.gitbook/assets/VisualEditor_Field_Option_OK.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/VisualEditor_Field_Option_Save.png" alt=""><figcaption></figcaption></figure>
 
 Hacer en click en _Add Option_
 
@@ -128,6 +128,6 @@ Con la propiedad _Variant_ en _ComboBox_ se muestra como una lista de opciones b
 
 Con la propiedad _Readonly_ activada se deshabilita el ingreso o modificacion de los datos de un campo. El campo aparece grisado y con una linea punteada.
 
-<figure><img src="../../.gitbook/assets/VE_Field_Options_Readonly.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/VE_Field_Options_Readonly_Displayed.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
