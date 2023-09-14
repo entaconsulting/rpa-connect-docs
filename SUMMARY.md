@@ -15,6 +15,7 @@
   * [Como usar un campo options](guide/develop-a-form/como-usar-un-campo-options.md)
   * [Como usar un campo number](guide/develop-a-form/como-usar-un-campo-number.md)
   * [Como usar un campo date](guide/develop-a-form/como-usar-un-campo-date.md)
+* [Page](guide/page.md)
 * [🔃 Workflows](guide/workflows/README.md)
   * [Create a Form with Stages](guide/workflows/create-a-workflow.md)
   * [Use Stages](guide/workflows/use-a-workflow.md)
