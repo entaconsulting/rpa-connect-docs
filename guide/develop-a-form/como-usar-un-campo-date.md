@@ -58,10 +58,6 @@ Con la propiedad _Required en True_, se indica que el campo debe ser completado 
 
 <figure><img src="../../.gitbook/assets/VE_Field_Option_Requiered_True_Displayed.png" alt=""><figcaption></figcaption></figure>
 
-### Validar formato del date con mascara
-
-Se puede configurar el campo para tener un formato definido, usando el atributo _Mask_. Donde el _**9**_ representa cualquier digito de _**0**_ a **9**, **.** representa el separador decimal, si se utiliza un digito entre **1** y **8** o **\9** se espera ese digito específicamente y el campo lo completa automáticamente.
-
 ### Hacer de solo lectura el campo date
 
 Con la propiedad _Readonly_ activada se deshabilita el ingreso o modificacion de los datos de un campo. El campo aparece grisado y con una linea punteada.
