@@ -6,7 +6,11 @@ Como vimos anteriormente, existen ciertos componentes que, debido a su funcional
 
 La herramienta _**Options**_ permite generar una lista de valores predefinidos entre los cuales el usuario realizará una selección. Vamos a analizar su funcionamiento incluyendo un campo de este tipo en el apartado de “Domicilio”. Al lado del campo “Provincia o departamento”, ubica un nuevo campo requerido con el nombre “pais”, define como _**Label**_ “País” y reduce su tamaño a 2 unidades. No olvides guardar los cambios a medida que avanzas en el diseño de tu formulario.
 
+<div data-full-width="true">
+
 <figure><img src="../.gitbook/assets/Inserción de campo Options.gif" alt=""><figcaption><p>Inserción de campo <em><strong>Options</strong></em></p></figcaption></figure>
+
+</div>
 
 Dentro de la sección _**Properties**_, dirígete al apartado _**Options**_ y haz clic sobre el botón con el signo "+" junto a la descripción _**Value**_. Se sumará un nuevo valor “Option 1”. Puedes repetir este paso tantas veces como lo necesites, en este caso añadiremos tres opciones: Argentina, Paraguay y Uruguay. Si quieres eliminar una opción, haz clic en el icono del cesto que aparece justo a su derecha.
 

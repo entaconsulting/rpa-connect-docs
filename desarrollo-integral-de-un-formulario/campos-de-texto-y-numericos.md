@@ -10,7 +10,7 @@ Para los primeros dos campos no podremos establecer demasiados condicionamientos
 
 <figure><img src="../.gitbook/assets/RPA_2_11.png" alt=""><figcaption><p>Configuración de la propiedad <em><strong>Max</strong></em> para el campo de "Apellido y nombre"</p></figcaption></figure>
 
-Si el formulario tuviera un campo para ingresar una descripción o mensaje, sería recomendable configurar un tope de caracteres más alto y permitir varias líneas de texto. Para ello, debes dirigirte a _**Properties > Appearance > Multiline**_ y seleccionar la opción _**False**_.
+Si el formulario tuviera un campo para ingresar una descripción o mensaje, sería recomendable configurar un tope de caracteres más alto y permitir varias líneas de texto. Para ello, debes dirigirte a _**Properties > Appearance > Multiline**_ y seleccionar la opción _**True**_.
 
 <figure><img src="../.gitbook/assets/RPA_2_12.png" alt=""><figcaption><p>Definición de la propiedad <em><strong>Multiline</strong></em></p></figcaption></figure>
 
@@ -26,7 +26,7 @@ Por el momento no editaremos el campo “Email”, dado que existen mejores opci
 
 Vamos a añadir ahora un nuevo campo de texto. Para ello, inserta una nueva columna dentro de la sección “Datos de contacto” y nómbrala “Domicilio” en la propiedad _**Title**_. Agrega un campo dinámico de texto, que tenga los valores “calle\_dom” para _**Name**_ y “Calle” para _**Label**_ y  dirígete a _**Properties > General > Size**_ para modificar su tamaño a 2 unidades y defínelo como obligatorio (recuerda que debes establecer la propiedad _**Required**_ como _**True**_). En la sección _**Validations**_ del apartado de propiedades, establece el tope máximo de extensión en 60 caracteres.
 
-<div data-full-width="true">
+<div data-full-width="false">
 
 <figure><img src="../.gitbook/assets/Configuración del campo Calle.gif" alt=""><figcaption><p>Configuración del campo "Calle"</p></figcaption></figure>
 
@@ -48,7 +48,7 @@ En la columna “Domicilio”, añade un campo numérico para la altura de la ca
 
 A la derecha de ese campo, crearemos otro con las mismas características para el código postal, pero estableciendo el valor “CP” tanto para _**Name**_ como para _**Label**_. Recuerda guardar tu progreso periódicamente para conservar los cambios que realices.
 
-<div data-full-width="true">
+<div align="center" data-full-width="true">
 
 <figure><img src="../.gitbook/assets/Configuración de campos numéricos.gif" alt=""><figcaption><p>Configuración de campos numéricos</p></figcaption></figure>
 
