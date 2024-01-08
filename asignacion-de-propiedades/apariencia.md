@@ -43,7 +43,7 @@ Esta propiedad define una estructura para dato solicitado, determinando sus valo
 
 <div data-full-width="false">
 
-<figure><img src="../.gitbook/assets/Uso de Mask.gif" alt=""><figcaption><p>Ejemplo de la configuración de <em><strong>Mask</strong></em> con distintos caracteres </p></figcaption></figure>
+<figure><img width="100" src="../.gitbook/assets/Uso de Mask.gif" alt=""><figcaption><p>Ejemplo de la configuración de <em><strong>Mask</strong></em> con distintos caracteres </p></figcaption></figure>
 
 </div>
 
