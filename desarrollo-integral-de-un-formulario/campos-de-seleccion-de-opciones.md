@@ -43,4 +43,8 @@ Este tipo de herramienta puede utilizarse para informar un estado, marcar el cum
 
 Los campos de este tipo generan un botón con tres estados posibles: verdadero, falso y nulo (sin respuesta). Debido a su sencillez, las opciones de configuración de _**Tristate**_ se limitan a propiedades generales como las de _**Boolean**_, aunque se diferencia de este campo por la posibilidad de mantener una respuesta neutral sin que el usuario deba escoger obligatoriamente un valor positivo o uno negativo prestablecido.
 
-<figure><img src="../.gitbook/assets/RPA_2_23.png" alt=""><figcaption><p>Propiedades del campo <em><strong>Tristate</strong></em></p></figcaption></figure>
+<div data-full-width="true">
+
+<figure><img src="../.gitbook/assets/RPA_2_24_.png" alt=""><figcaption><p>Propiedades del campo <em><strong>Tristate</strong></em></p></figcaption></figure>
+
+</div>
