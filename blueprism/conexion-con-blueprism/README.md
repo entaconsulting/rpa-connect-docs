@@ -5,7 +5,7 @@ description: >-
   el uso y configuración de tus formularios.
 ---
 
-# Conexión con BluePrism
+# BluePrism
 
 El conector de RPA Connect se encuentra disponible en el portal de DigitalExchange de BluePrism. Puedes acceder desde el siguiente enlace: [https://digitalexchange.blueprism.com/dx/entry/74617/solution/rpa-forms](https://digitalexchange.blueprism.com/dx/entry/74617/solution/rpa-forms)
 

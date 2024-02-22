@@ -1,4 +1,4 @@
-# Creación de una credencial de autenticación
+# Creación de una credencial
 
 Para comenzar el proceso, dirígete a Authorization Profiles y crea una ApiKey, que será la utilizada por BluePrism. Una vez que la hayas añadido, copia la Apikey que se genera automáticamente tal como vimos anteriormente en el [apartado de Roles y permisos de Admin App](../../administracion/admin-app/roles-y-permisos.md).
 

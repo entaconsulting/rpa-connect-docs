@@ -1,6 +1,6 @@
 # Acciones vinculadas a archivos
 
-En este apartado analizaremos cómo consultar y descargar los archivos adjuntos de un formulario así  como añadir y eliminar los recursos asignados a una instancia de formulario determinada.
+En este apartado analizaremos cómo consultar y descargar los archivos adjuntos de un formulario así como añadir y eliminar los recursos asignados a una instancia de formulario determinada.
 
 ## **Get Attachments / Download Attachment**
 
