@@ -7,7 +7,7 @@ description: >-
 
 # Admin App
 
-En esta sección, abandonaremos la herramienta _**Build**_ que habíamos recorrido hasta el momento para adentrarnos en _**Admin**_ y conocer todas las opciones que brinda para llevar un mayor control de los formularios de tu ambiente y sus permisos de acceso. Cuando completes este apartado, podrás:
+En esta sección, nos adentraremos en la aplicación _**Admin**_ y conoceremos todas las opciones que brinda para llevar un mayor control de los formularios de tu ambiente y sus permisos de acceso. Cuando completes este apartado, podrás:
 
 * Distinguir los tipos de usuarios y grupos de RPA Connect y sus características.
 * Dar de alta nuevos usuarios y grupos, así como darlos de baja.
