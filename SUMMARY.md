@@ -34,14 +34,17 @@
   * [Gestión de grupos AD](administracion/integracion-con-microsoft-entra-id/gestion-de-grupos-ad.md)
   * [Configuración de notificaciones Microsoft Teams](administracion/integracion-con-microsoft-entra-id/configuracion-de-notificaciones-microsoft-teams.md)
 
-## BLUEPRISM
+## CONECTORES
 
-* [Conexión con BluePrism](blueprism/conexion-con-blueprism/README.md)
-  * [Creación de una credencial](blueprism/conexion-con-blueprism/creacion-de-una-credencial-de-autenticacion.md)
-  * [Generación de una instancia pública de formulario](blueprism/conexion-con-blueprism/generacion-de-una-instancia-publica-de-formulario.md)
-  * [Consulta de instancias de una plantilla](blueprism/conexion-con-blueprism/consulta-de-instancias-de-una-plantilla.md)
-  * [Otras acciones](blueprism/conexion-con-blueprism/otras-acciones/README.md)
-    * [Acciones vinculadas a instancias](blueprism/conexion-con-blueprism/otras-acciones/acciones-vinculadas-a-instancias.md)
-    * [Acciones vinculadas a archivos](blueprism/conexion-con-blueprism/otras-acciones/acciones-vinculadas-a-archivos.md)
-    * [Acciones vinculadas a stages](blueprism/conexion-con-blueprism/otras-acciones/acciones-vinculadas-a-stages.md)
-  * [Información adicional](blueprism/conexion-con-blueprism/informacion-adicional.md)
+* [BluePrism](conectores/blueprism/README.md)
+  * [Creación de una credencial](conectores/blueprism/creacion-de-una-credencial-de-autenticacion.md)
+  * [Generación de una instancia pública de formulario](conectores/blueprism/generacion-de-una-instancia-publica-de-formulario.md)
+  * [Consulta de instancias de una plantilla](conectores/blueprism/consulta-de-instancias-de-una-plantilla.md)
+  * [Otras acciones](conectores/blueprism/otras-acciones/README.md)
+    * [Acciones vinculadas a instancias](conectores/blueprism/otras-acciones/acciones-vinculadas-a-instancias.md)
+    * [Acciones vinculadas a archivos](conectores/blueprism/otras-acciones/acciones-vinculadas-a-archivos.md)
+    * [Acciones vinculadas a stages](conectores/blueprism/otras-acciones/acciones-vinculadas-a-stages.md)
+
+***
+
+* [Información adicional](informacion-adicional.md)
