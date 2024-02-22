@@ -1,10 +1,10 @@
 # Gestión de grupos AD
 
-imComo analizamos anteriormente, existen diversos roles al interactuar con RPA Connect, cada uno de ellos con características y funcionalidades específicas. Desde Microsoft Entra ID, es posible generar nuevos grupos con sus respectivos permisos. Veamos cuáles son:
+Como analizamos anteriormente, existen diversos roles al interactuar con RPA Connect, cada uno de ellos con características y funcionalidades específicas. Desde Microsoft Entra ID, es posible generar nuevos grupos con sus respectivos permisos. Veamos cuáles son:
 
-* **Desarrolladores:** son los usuarios que tienen acceso a la aplicación _**Build**_ ([https://app.rpaconnect.io/build](https://app.rpaconnect.io/build)) y están a cargo de la creación y edición de formularios, pudiendo diseñar nuevas plantillas y, en función de los permisos de los que dispongan, gestionar las instancias de formulario. **A este tipo de rol le corresponderá el permiso **_**Manage form definitions**_**.**
-* **Administradores:** son quienes poseen acceso a la aplicación _**Admin**_ ([https://app.rpaconnect.io/admin](https://app.rpaconnect.io/admin)) y pueden gestionar las altas y bajas de usuarios, la configuración de grupos, la asignación de roles y permisos, y el acceso a los formularios y espacios de trabajo. **A este tipo de rol le corresponderá el permiso **_**Manage Admin settings**_**.**
-* **Usuarios Connect:** son aquellos a los que pueden asignársele formularios definidos como _**Connect Only**_ y pueden acceder al Portal ([https://app.rpaconnect.io/portal](https://app.rpaconnect.io/portal)) para visualizarlos. **A este tipo de rol le corresponderá el permiso **_**Connect user**_**.**
+* **Desarrolladores:** son los usuarios que tienen acceso a la aplicación _**Build**_ ([https://app.rpaconnect.io/build](https://app.rpaconnect.io/build)) y están a cargo de la creación y edición de formularios, pudiendo diseñar nuevas plantillas y, en función de los permisos de los que dispongan, gestionar las instancias de formulario. **A este tipo de rol le corresponderá el permiso \_Manage form definitions**\_**.**
+* **Administradores:** son quienes poseen acceso a la aplicación _**Admin**_ ([https://app.rpaconnect.io/admin](https://app.rpaconnect.io/admin)) y pueden gestionar las altas y bajas de usuarios, la configuración de grupos, la asignación de roles y permisos, y el acceso a los formularios y espacios de trabajo. **A este tipo de rol le corresponderá el permiso \_Manage Admin settings**\_**.**
+* **Usuarios Connect:** son aquellos a los que pueden asignársele formularios definidos como _**Connect Only**_ y pueden acceder al Portal ([https://app.rpaconnect.io/portal](https://app.rpaconnect.io/portal)) para visualizarlos. **A este tipo de rol le corresponderá el permiso \_Connect user**\_**.**
 
 Para crear un nuevo grupo desde Microsoft Entra ID, dirígete al apartado _**Enterprise applications > RPA Connect > Users and Groups**_ y pulsa _**Add user/group**_.
 
