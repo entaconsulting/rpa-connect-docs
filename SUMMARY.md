@@ -37,7 +37,7 @@
 ## BLUEPRISM
 
 * [Conexión con BluePrism](blueprism/conexion-con-blueprism/README.md)
-  * [Creación de una credencial de autenticación](blueprism/conexion-con-blueprism/creacion-de-una-credencial-de-autenticacion.md)
+  * [Creación de una credencial](blueprism/conexion-con-blueprism/creacion-de-una-credencial-de-autenticacion.md)
   * [Generación de una instancia pública de formulario](blueprism/conexion-con-blueprism/generacion-de-una-instancia-publica-de-formulario.md)
   * [Consulta de instancias de una plantilla](blueprism/conexion-con-blueprism/consulta-de-instancias-de-una-plantilla.md)
   * [Otras acciones](blueprism/conexion-con-blueprism/otras-acciones/README.md)
