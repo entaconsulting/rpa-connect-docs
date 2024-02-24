@@ -21,7 +21,3 @@ Selecciona el archivo que desees utilizar, ya sea una imagen o un documento, y c
 </div>
 
 Puedes cargar todos los materiales que creas probable utilizar o bien subirlos a medida que los necesites, de cualquier modo, es importante que mantengas el repositorio ordenado y actualizado para facilitar el flujo de trabajo y evitar posibles errores. A continuación, veremos cómo añadir un recurso de imagen en un formulario. Intenta cargar un archivo .jpg o .png de un logo para utilizarlo.
-
-\
-
-

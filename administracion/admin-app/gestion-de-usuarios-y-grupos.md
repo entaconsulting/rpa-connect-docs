@@ -14,11 +14,9 @@ Desde _**Admin App**_ puedes asignar, añadir o restringir distintos tipos de ro
 * **Admin Manage:** habilita el acceso a la aplicación de administración. Quienes posean este rol serán capaces de gestionar los usuarios de la plataforma y configurar todas las opciones que veremos en esta sección.
 * **Connect User:** atribuye una propiedad específica a los usuarios por la cual pueden asignárseles aquellos formularios que hayan sido definidos como _**Connect only**_, marcando dicha casilla de opción en la ventana de edición de formularios de la aplicación _**Build**_.
 
-Los roles son específicos e independientes entre sí, por lo que podrás asignar a un mismo usuario uno, varios o todos los roles, según las funciones y acciones que necesite llevar adelante.&#x20;
+Los roles son específicos e independientes entre sí, por lo que podrás asignar a un mismo usuario uno, varios o todos los roles, según las funciones y acciones que necesite llevar adelante.
 
-Para dar de alta un nuevo usuario, haz clic sobre el botón _**New user**_, asigna los roles que desees al usuario y luego ingresa su dirección de correo electrónico y el nombre que le será asignado:
-
-_\[VIDEO: Alta de un usuario]_
+Para dar de alta un nuevo usuario, haz clic sobre el botón _**New user**_, asigna los roles que desees al usuario y luego ingresa su dirección de correo electrónico y el nombre que le será asignado.
 
 En caso de que necesites dar de alta varios usuarios con los mismos permisos, puedes agregar más filas pulsando sobre la opción _**Add row**_.
 
@@ -38,7 +36,7 @@ La edición también te permitirá gestionar los grupos en los que se encuentre 
 
 ## Grupos
 
-Despliega el menú lateral y dirígete a la sección _**Users And groups > Groups**_. Desde allí podrás gestionar todos los grupos que hayas creado. Para generar uno nuevo, haz clic en _**New group**_.&#x20;
+Despliega el menú lateral y dirígete a la sección _**Users And groups > Groups**_. Desde allí podrás gestionar todos los grupos que hayas creado. Para generar uno nuevo, haz clic en _**New group**_.
 
 <figure><img src="../../.gitbook/assets/rpa_admin_app_7.png" alt=""><figcaption><p>Creación de grupos</p></figcaption></figure>
 
@@ -56,8 +54,10 @@ Prueba generando un grupo con el nombre “Editores” y asígnale el rol _**For
 
 Puedes añadir o quitar miembros de un grupo desde el botón de edición, siempre asegurándote de que los mismos estén dados de alta desde la sección _**Users**_. También puedes hacerlo en dicha sección, ingresando a un usuario y seleccionando el grupo para agregar o eliminar.
 
-_\[VIDEO: Creación de un grupo]_
+{% embed url="https://youtu.be/7esxVjbG7go" %}
+Creación de un grupo
+{% endembed %}
 
 Puedes añadir o quitar miembros de un grupo desde el botón de edición, siempre asegurándote de que los mismos estén dados de alta desde la sección _**Users**_. También puedes hacerlo en dicha sección, ingresando a un usuario y seleccionando el grupo para agregar o eliminar.
 
-<figure><img src="../../.gitbook/assets/rpa_admin_app_10.png" alt=""><figcaption><p>Gestión de  grupos desde la sección <em>Users</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/rpa_admin_app_10.png" alt=""><figcaption><p>Gestión de grupos desde la sección <em>Users</em></p></figcaption></figure>

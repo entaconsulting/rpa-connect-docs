@@ -33,6 +33,8 @@ Desde el ícono de candado, podrás establecer la configuración de privacidad. 
 
 Puedes pulsar sobre el toggle de privacidad para cambiar el estado del workspace de privado a público (lo que lo volverá visible para todos los usuarios), o bien asignar usuarios puntuales al espacio de trabajo, del mismo modo que grupos, copiando y pegando el ID que se generó para éste.
 
-_\[VIDEO: Configuración de workspace]_
+{% embed url="https://youtu.be/RvvMAKQE62Q" %}
+Configuración de un Workspace
+{% endembed %}
 
 Una vez que tu espacio de trabajo sea visible, podrás seleccionarlo como workspace para los nuevos formularios que crees en la aplicación _**Build**_, así como, desde el botón de edición, asignar plantillas ya existentes al nuevo espacio de trabajo.

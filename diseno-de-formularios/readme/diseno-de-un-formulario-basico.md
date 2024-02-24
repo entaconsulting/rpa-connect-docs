@@ -14,9 +14,17 @@ Al hacer clic, la herramienta quedará seleccionada y el cursor mostrará una l�
 
 Las secciones ocupan el ancho completo del formulario mientras que las columnas tienen un tamaño total de 12 unidades, equivalente a un 100% del ancho de la sección. Al seleccionar una columna, se mostrará el apartado _**Properties**_. En la sección _**General**_, podrás ver propiedades generales como el tamaño y el título.
 
+{% embed url="https://www.youtube.com/watch?ab_channel=RPAConnect&v=h0sudzxT_D0" %}
+Intraducción al Layout
+{% endembed %}
+
 Comienza insertando una nueva sección. A continuación, inserta una columna dentro de la sección y reduce su ancho a 6 unidades. Luego, inserta otra columna al lado, de modo que queden dos pares de columnas dentro de la sección.
 
 Finalmente, pulsa sobre el botón _**Save**_ para guardar el progreso.
+
+{% embed url="https://www.youtube.com/watch?ab_channel=RPAConnect&v=WkS2uB7izho" %}
+Creación del Layout
+{% endembed %}
 
 Ahora es momento de renombrar las secciones. Haz clic sobre la primera sección y dirígete a _**Properties > General > Title**_. Llamaremos a esta sección “Datos personales”. Luego, dirígete a la segunda sección y nómbrala “Datos de contacto”. A continuación, selecciona cada una de las columnas y asegúrate de que no tengan un título, ya que estos estarán asignados a los campos.
 
@@ -60,7 +68,7 @@ Los campos deberían verse del siguiente modo:
 
 Más adelante, veremos en profundidad las propiedades, apariencia y comportamientos de cada tipo de elementos y conoceremos distintas opciones de validación. Por el momento, nos enfocaremos en el apartado _General_:
 
-<table><thead><tr><th width="124">Propiedad</th><th>Función</th></tr></thead><tbody><tr><td><strong>Label</strong></td><td>Permite establecer el nombre que verá el usuario final al acceder al formulario.</td></tr><tr><td><strong>Size</strong></td><td>Define el ancho del campo. Al igual que ocurre con las columnas y las secciones, las 12 unidades son proporcionales e implican que el campo ocupa el 100% de la columna en la que se encuentra. Este número se puede reducir disminuyendo su tamaño y liberando espacio para insertar nuevos campos junto a los existentes.</td></tr><tr><td><strong>Required</strong></td><td>Establece si el formulario es un campo obligatorio (<em>True</em>) o no lo es (<em>False</em>). </td></tr></tbody></table>
+<table><thead><tr><th width="124">Propiedad</th><th>Función</th></tr></thead><tbody><tr><td><strong>Label</strong></td><td>Permite establecer el nombre que verá el usuario final al acceder al formulario.</td></tr><tr><td><strong>Size</strong></td><td>Define el ancho del campo. Al igual que ocurre con las columnas y las secciones, las 12 unidades son proporcionales e implican que el campo ocupa el 100% de la columna en la que se encuentra. Este número se puede reducir disminuyendo su tamaño y liberando espacio para insertar nuevos campos junto a los existentes.</td></tr><tr><td><strong>Required</strong></td><td>Establece si el formulario es un campo obligatorio (<em>True</em>) o no lo es (<em>False</em>).</td></tr></tbody></table>
 
 Selecciona cada uno de los campos que has creado y establece los siguientes valores:
 
@@ -76,7 +84,7 @@ Para comprobar tus avances, puedes utilizar el modo Live Editor del editor visua
 
 La principal restricción de este modo es que no podrás agregar nuevos campos o elementos de layout, por lo que deberás desactivarlo para seguir trabajando en el diseño de tu formulario.
 
-Ahora es momento de completar la segunda sección: “Datos de contacto”. Añade un campo de tipo _Text_ en la primera columna. Definiremos para él las propiedades _**Name:**_ “email” y _**Label:**_ “Correo electrónico”. Añade otro campo de tipo _**Number**_ en la segunda columna, con las propiedades _**Name:**_ “tel” y _**Label:**_ “Teléfono”. Si añades un componente por error, siempre puedes eliminarlo seleccionando dicho elemento y pulsando sobre la opción _**Delete**_ que se muestra en la esquina inferior derecha.&#x20;
+Ahora es momento de completar la segunda sección: “Datos de contacto”. Añade un campo de tipo _Text_ en la primera columna. Definiremos para él las propiedades _**Name:**_ “email” y _**Label:**_ “Correo electrónico”. Añade otro campo de tipo _**Number**_ en la segunda columna, con las propiedades _**Name:**_ “tel” y _**Label:**_ “Teléfono”. Si añades un componente por error, siempre puedes eliminarlo seleccionando dicho elemento y pulsando sobre la opción _**Delete**_ que se muestra en la esquina inferior derecha.
 
 <figure><img src="../../.gitbook/assets/opcion_delete.png" alt=""><figcaption></figcaption></figure>
 
