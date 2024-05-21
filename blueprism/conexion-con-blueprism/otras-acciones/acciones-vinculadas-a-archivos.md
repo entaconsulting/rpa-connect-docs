@@ -18,7 +18,7 @@ Por su parte, la acción _**Download Attachment**_ incluye los siguientes parám
 
 Estas acciones permiten, respectivamente, añadir y eliminar un recurso de una instancia de formulario. El tipo de recursos que se gestionan por esta vía no se encuentran incluidos en el diseño del formulario, sino que se añaden como enlaces externos con material descargable:
 
-<figure><img src="../../../.gitbook/assets/rpa_blueprism_10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/uso_de_resource.png" alt=""><figcaption></figcaption></figure>
 
 Las propiedades a definir para cargar un nuevo recurso son:
 
