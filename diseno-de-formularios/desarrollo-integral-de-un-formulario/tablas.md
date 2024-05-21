@@ -36,9 +36,9 @@ Además de las opciones _**Readonly**_ y _**Visibility**_, cuenta con una serie 
 
 Analizaremos en mayor detalle cómo funciona este tipo de elementos incorporando una nueva sección y sumando una tabla de ancho completo. Definiremos como _**Label**_ “Historial de pedidos” y como _**Name**_ “historial\_pedidos”. En el apartado _**Validations**_, define que el número mínimo de filas sea 1 y el máximo 10. En _**Behavior**_, activa las opciones _**Can Add**_**, **_**Can Delete**_ y _**Can Sort**_, para que los usuarios puedan agregar nuevas filas, quitarlas y ordenar los datos ingresados.
 
-{% embed url="https://www.youtube.com/watch?ab_channel=RPAConnect&v=HqSERbX7Bog" %}
-Insertar tabla
-{% endembed %}
+
+
+{% embed url="https://youtu.be/yf5IBrUUsa0" %}
 
 A continuación, dirígete al apartado _**Table columns**_ y añade 5 columnas. Las utilizaremos para que el usuario pueda ingresar el tipo de producto solicitado, la cantidad de unidades, el código de pedido, la fecha de solicitud y el comprobante.
 
@@ -46,15 +46,15 @@ A continuación, dirígete al apartado _**Table columns**_ y añade 5 columnas. 
 
 Una vez que hayas creado las columnas, haz clic sobre el nombre de la primera para empezar a configurarla. Se abrirá un nuevo panel con las propiedades específicas para esa columna. En primer lugar, define como _**Name**_ “historial\_pedidos\_producto” y en el apartado _**Type**_, elige que el tipo de campo sea _**Options**_, suponiendo que tenemos una cantidad limitada de productos entre las que el usuario puede elegir. Pulsa _OK_ para guardar.  A continuación, establece como _**Label**_ “Producto” y como _**Size**_, 3 unidades.
 
-{% embed url="https://www.youtube.com/watch?ab_channel=RPAConnect&v=dBw_OVq2RX0" %}
-Edición de columnas
-{% endembed %}
+
+
+{% embed url="https://youtu.be/_nKjwpLcpdc" %}
 
 En el apartado de opciones, define los valores como “Rojo”, “Verde” y “Azul”. Haz clic en _**Back**_ para volver a las propiedades de la tabla.
 
-{% embed url="https://www.youtube.com/watch?ab_channel=RPAConnect&v=WuqEuKgmEUw" %}
-Configuración de opciones en columna de tipo Options
-{% endembed %}
+
+
+{% embed url="https://youtu.be/RTsupoVjQak" %}
 
 Selecciona ahora la segunda columna. Define como _**Name**_ “historial\_pedidos\_cantidad” y como tipo de campo, _**Number**_. Su _**Label**_ será “Cantidad” y tendrá un tamaño de 2 unidades. Establece como _**Placeholder**_ “Unidades solicitadas” y como valor máximo 100.
 
@@ -69,9 +69,9 @@ Imaginemos que los códigos están compuestos del siguiente modo, con las primer
 
 El formulario debería impedir la carga de los datos incorrectos. Comprueba a continuación los parámetros que pueden utilizarse para la validación del código:
 
-{% embed url="https://www.youtube.com/watch?ab_channel=RPAConnect&v=-n0TylpwspA" %}
-Aplicación de propiedades para estructurar un dato
-{% endembed %}
+
+
+{% embed url="https://youtu.be/v-xfq1sLh5o" %}
 
 Establece el tamaño del campo en 3 unidades y vuelve hacia atrás para seleccionar ahora la cuarta columna. Define para la propiedad _**Name**_ el valor “historial\_pedidos\_fecha”y escoge como tipo de campo _**Date**_. Su _**Label**_ será “Fecha de solicitud” y su tamaño será de 2 unidades.
 

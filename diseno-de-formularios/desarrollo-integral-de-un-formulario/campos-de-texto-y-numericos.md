@@ -4,7 +4,7 @@ Los campos más utilizados en la mayoría de los formularios son también los m�
 
 ## Text
 
-Los campos de texto son componentes versátiles y con diversas opciones de configuración. En el formulario diseñado anteriormente, se utilizó el campo de texto en varias instancias: “Apellido y nombre”, “Nacionalidad”, “Clave tributaria” y “Correo electrónico”. Veremos cómo ajustar sus características en función del tipo de dato que esperamos en cada caso.
+Los campos de texto son componentes versátiles y con diversas opciones de configuración. En el formulario diseñado anteriormente, se utilizó el campo de texto en varias instancias: “Apellido y nombre”, “Nacionalidad”, “Clave tributaria” y “Correo electrónico”. Veremos cómo ajustar algunas de sus características en función del tipo de dato que esperamos.
 
 Para los primeros dos campos no podremos establecer demasiados condicionamientos, ya que no es posible prever qué datos ingresará el usuario, sin embargo podemos estimar que el texto será breve. Dirígete ahora a la sección _**Validations**_ del apartado de propiedades e ingresa el número 60 en el apartado _**Max**_ para establecer el tope máximo de extensión en 60 caracteres.
 
@@ -22,13 +22,11 @@ La aplicación interpreta los 0 como caracteres numéricos y da forma a los dato
 
 <figure><img src="../../.gitbook/assets/RPA_2_14.png" alt=""><figcaption><p>Previsualización del campo "Clave tributaria"</p></figcaption></figure>
 
-Por el momento no editaremos el campo “Email”, dado que existen mejores opciones para configurar el tipo de campo para este dato, que veremos más adelante.
-
 Vamos a añadir ahora un nuevo campo de texto. Para ello, inserta una nueva columna dentro de la sección “Datos de contacto” y nómbrala “Domicilio” en la propiedad _**Title**_. Agrega un campo dinámico de texto, que tenga los valores “calle\_dom” para _**Name**_ y “Calle” para _**Label**_ y  dirígete a _**Properties > General > Size**_ para modificar su tamaño a 2 unidades y defínelo como obligatorio (recuerda que debes establecer la propiedad _**Required**_ como _**True**_). En la sección _**Validations**_ del apartado de propiedades, establece el tope máximo de extensión en 60 caracteres.
 
-{% embed url="https://www.youtube.com/watch?ab_channel=RPAConnect&v=MZolKI8xhm8" %}
-Configuración del campo "Calle"
-{% endembed %}
+
+
+{% embed url="https://youtu.be/Rdyvn1mKFxw" %}
 
 Crea otros dos campos obligatorios con un tamaño de 3 unidades y tope máximo de extensión en 60 caracteres. Para el primero, indica los valores _**Name**_ y _**Label**_ como “ciud\_loc” y “Ciudad o localidad” respectivamente. Para el segundo, defínelos como “prov\_depto” y “Provincia o departamento”.
 
@@ -46,6 +44,6 @@ En la columna “Domicilio”, añade un campo numérico para la altura de la ca
 
 A la derecha de ese campo, crearemos otro con las mismas características para el código postal, pero estableciendo el valor “CP” tanto para _**Name**_ como para _**Label**_. Recuerda guardar tu progreso periódicamente para conservar los cambios que realices.
 
-{% embed url="https://www.youtube.com/watch?ab_channel=RPAConnect&v=b6yKwjleSbI" %}
-Configuración de campos numéricos
-{% endembed %}
+
+
+{% embed url="https://youtu.be/5iV4v67hB34" %}

@@ -6,9 +6,9 @@ Veamos cuáles son estas propiedades para los distintos tipos de elementos de fo
 
 <figure><img src="../../.gitbook/assets/RPA_2_02.png" alt=""><figcaption><p>Apartado <em><strong>Appearance</strong></em> y ubicación del botón de <em><strong>Preview</strong></em>.</p></figcaption></figure>
 
-## Columnas y campos estáticos
+## Columnas y elementos estáticos
 
-Tanto las columnas como los campos estáticos _**Text**_ e _**Image**_ poseen propiedades específicas que definen su posicionamiento en pantalla. La propiedad _**Vertical align**_ es común a todos ellos y se refiere a la ubicación que los componentes adoptan respecto al margen superior e inferior de la sección o columna que los contiene. Esta propiedad puede configurarse como _**Top**_ (se alinea en la parte superior), _**Center**_ (se alinea en el centro) o _**Bottom**_ (alineado en la parte inferior).
+Tanto las columnas como los elementos estáticos _**Text**_ e _**Image**_ poseen propiedades específicas que definen su posicionamiento en pantalla. La propiedad _**Vertical align**_ es común a todos ellos y se refiere a la ubicación que los componentes adoptan respecto al margen superior e inferior de la sección o columna que los contiene. Esta propiedad puede configurarse como _**Top**_ (se alinea en la parte superior), _**Center**_ (se alinea en el centro) o _**Bottom**_ (alineado en la parte inferior).
 
 <figure><img src="../../.gitbook/assets/RPA_2_03.png" alt=""><figcaption><p>Opciones de la propiedad <em><strong>Vertical align</strong></em></p></figcaption></figure>
 
@@ -24,9 +24,9 @@ El campo _**Text**_ ofrece una mayor riqueza de opciones, contando con las sigui
 
 <figure><img src="../../.gitbook/assets/RPA_2_05.png" alt=""><figcaption><p>Opciones del campo <em><strong>Text</strong></em></p></figcaption></figure>
 
-## Campos dinámicos
+## Campos de entrada
 
-Aunque los campos dinámicos presentan rangos de opciones más variados dependiendo de su funcionalidad, en la mayoría de ellos encontrarás las siguientes propiedades de apariencia:
+Aunque los campos de entada presentan rangos de opciones más variados dependiendo de su funcionalidad, en la mayoría de ellos encontrarás las siguientes propiedades de apariencia:
 
 ### Mask
 

@@ -1,6 +1,6 @@
 # Acciones vinculadas a stages
 
-Estas acciones se encuentran vinculadas a la generación de workflows, es decir, recorridos con una serie de pasos constituidos por distintos formularios que deberán responderse de modo ordenado. Si bien aún no profundizaremos en sus características, es importante tener presente esta opción para poder recurrir a ella cuando sea necesario aplicarla. Veamos en detalle su funcionamiento:
+Como vimos anteriormente, los workflows son recorridos con una serie de pasos constituidos por distintos formularios que deberán responderse de modo ordenado. Veamos en detalle cuáles son las acciones asociadas a configurar su funcionamiento:
 
 ## Create Stage
 

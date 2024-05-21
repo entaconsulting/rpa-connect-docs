@@ -12,9 +12,9 @@ Añadiremos un campo requerido _**Date**_ en la sección de "Datos personales" d
 
 Una vez añadido, definiremos el valor “fecha\_nacimiento” para la propiedad _**Name**_ que se registrará internamente y el valor “Fecha de nacimiento” para la propiedad _**Label**_, que visualizará el usuario.
 
-{% embed url="https://www.youtube.com/watch?ab_channel=RPAConnect&v=8MnwNrx8cH0" %}
-Definición del campo "Fecha de nacimiento"
-{% endembed %}
+
+
+{% embed url="https://youtu.be/BQhyNHkiDjc" %}
 
 ## DateTime
 

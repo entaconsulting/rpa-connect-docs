@@ -6,15 +6,15 @@ Como vimos anteriormente, existen ciertos componentes que, debido a su funcional
 
 La herramienta _**Options**_ permite generar una lista de valores predefinidos entre los cuales el usuario realizará una selección. Vamos a analizar su funcionamiento incluyendo un campo de este tipo en el apartado de “Domicilio”. Al lado del campo “Provincia o departamento”, ubica un nuevo campo requerido con el nombre “pais”, define como _**Label**_ “País” y reduce su tamaño a 2 unidades. No olvides guardar los cambios a medida que avanzas en el diseño de tu formulario.
 
-{% embed url="https://www.youtube.com/watch?ab_channel=RPAConnect&v=ISznp637siw" %}
-Inserción de campo "Options"
-{% endembed %}
+
+
+{% embed url="https://youtu.be/7sHRlsc5mhA" %}
 
 Dentro de la sección _**Properties**_, dirígete al apartado _**Options**_ y haz clic sobre el botón con el signo "+" junto a la descripción _**Value**_. Se sumará un nuevo valor “Option 1”. Puedes repetir este paso tantas veces como lo necesites, en este caso añadiremos tres opciones: Argentina, Paraguay y Uruguay. Si quieres eliminar una opción, haz clic en el icono del cesto que aparece justo a su derecha.
 
-{% embed url="https://www.youtube.com/watch?ab_channel=RPAConnect&v=t5ieTZiN2ng" %}
-Configuración de opciones para el campo "País"
-{% endembed %}
+
+
+{% embed url="https://youtu.be/NDjL8jcMVDA" %}
 
 Puedes elegir distintas variantes para mostrarla desde el apartado de **Properties > Appearance**, las principales son:&#x20;
 
@@ -31,7 +31,7 @@ La opción _**Split Value/Label**_ permite asignar a cada opción un valor real 
 
 ## Boolean
 
-A diferencia de _**Options**_, el campo booleano permite establecer un valor de lógica binaria _sí/no_ donde el usuario pueda definir si una condición es verdadera o no, activando o desactivando el botón. Este campo mantiene las propiedades generales comunes a los campos dinámicos y el valor a evaluar se define en la propiedad _**Label**_.
+A diferencia de _**Options**_, el campo booleano permite establecer un valor de lógica binaria _sí/no_ donde el usuario pueda definir si una condición es verdadera o no, activando o desactivando el botón. Este campo mantiene las propiedades generales comunes a los campos de entrada y el valor a evaluar se define en la propiedad _**Label**_.
 
 <figure><img src="../../.gitbook/assets/RPA_2_21.png" alt=""><figcaption><p>Definición de un campo de tipo <em><strong>Boolean</strong></em></p></figcaption></figure>
 

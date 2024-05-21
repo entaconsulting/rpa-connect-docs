@@ -10,17 +10,21 @@
 * [Asignación de propiedades](diseno-de-formularios/asignacion-de-propiedades/README.md)
   * [Propiedades generales](diseno-de-formularios/asignacion-de-propiedades/propiedades-generales.md)
   * [Apariencia](diseno-de-formularios/asignacion-de-propiedades/apariencia.md)
-  * [Validaciones](diseno-de-formularios/asignacion-de-propiedades/validaciones.md)
-  * [Comportamiento](diseno-de-formularios/asignacion-de-propiedades/comportamiento.md)
+  * [Validaciones](diseno-de-formularios/asignacion-de-propiedades/validaciones/README.md)
+    * [Validaciones avanzadas](diseno-de-formularios/asignacion-de-propiedades/validaciones/validaciones-avanzadas.md)
+  * [Comportamiento](diseno-de-formularios/asignacion-de-propiedades/comportamiento/README.md)
+    * [Comportamientos avanzados](diseno-de-formularios/asignacion-de-propiedades/comportamiento/comportamientos-avanzados.md)
 * [Desarrollo integral de un formulario](diseno-de-formularios/desarrollo-integral-de-un-formulario/README.md)
   * [Campos de texto y numéricos](diseno-de-formularios/desarrollo-integral-de-un-formulario/campos-de-texto-y-numericos.md)
   * [Campos de fecha y hora](diseno-de-formularios/desarrollo-integral-de-un-formulario/campos-de-fecha-y-hora.md)
   * [Campos de selección de opciones](diseno-de-formularios/desarrollo-integral-de-un-formulario/campos-de-seleccion-de-opciones.md)
-  * [Otros campos dinámicos](diseno-de-formularios/desarrollo-integral-de-un-formulario/otros-campos-dinamicos.md)
+  * [Otros campos de entrada](diseno-de-formularios/desarrollo-integral-de-un-formulario/otros-campos-dinamicos.md)
   * [Tablas](diseno-de-formularios/desarrollo-integral-de-un-formulario/tablas.md)
 * [Utilización de recursos comunes](diseno-de-formularios/utilizacion-de-recursos-comunes/README.md)
   * [Carga de recursos](diseno-de-formularios/utilizacion-de-recursos-comunes/carga-de-recursos.md)
   * [Utilización de recursos](diseno-de-formularios/utilizacion-de-recursos-comunes/utilizacion-de-recursos.md)
+* [Configuración de workflows](diseno-de-formularios/configuracion-de-workflows.md)
+* [Opciones avanzadas](diseno-de-formularios/opciones-avanzadas.md)
 
 ## Administración
 
@@ -34,14 +38,24 @@
   * [Gestión de grupos AD](administracion/integracion-con-microsoft-entra-id/gestion-de-grupos-ad.md)
   * [Configuración de notificaciones Microsoft Teams](administracion/integracion-con-microsoft-entra-id/configuracion-de-notificaciones-microsoft-teams.md)
 
-## CONECTORES
+## BLUEPRISM
 
-* [BluePrism](blueprism/conexion-con-blueprism/README.md)
-  * [Creación de una credencial](blueprism/conexion-con-blueprism/creacion-de-una-credencial-de-autenticacion.md)
+* [Conexión con BluePrism](blueprism/conexion-con-blueprism/README.md)
+  * [Creación de una credencial de autenticación](blueprism/conexion-con-blueprism/creacion-de-una-credencial-de-autenticacion.md)
   * [Generación de una instancia pública de formulario](blueprism/conexion-con-blueprism/generacion-de-una-instancia-publica-de-formulario.md)
   * [Consulta de instancias de una plantilla](blueprism/conexion-con-blueprism/consulta-de-instancias-de-una-plantilla.md)
   * [Otras acciones](blueprism/conexion-con-blueprism/otras-acciones/README.md)
     * [Acciones vinculadas a instancias](blueprism/conexion-con-blueprism/otras-acciones/acciones-vinculadas-a-instancias.md)
     * [Acciones vinculadas a archivos](blueprism/conexion-con-blueprism/otras-acciones/acciones-vinculadas-a-archivos.md)
     * [Acciones vinculadas a stages](blueprism/conexion-con-blueprism/otras-acciones/acciones-vinculadas-a-stages.md)
-* [Información adicional](conectores/informacion-adicional.md)
+  * [Información adicional](blueprism/conexion-con-blueprism/informacion-adicional.md)
+
+## CANALES DE INTERACCIÓN
+
+* [Gestión de instancias en Teams y el Portal](canales-de-interaccion/gestion-de-instancias-en-teams-y-el-portal/README.md)
+  * [Interfaz y funciones comunes](canales-de-interaccion/gestion-de-instancias-en-teams-y-el-portal/interfaz-y-funciones-comunes/README.md)
+    * [Inicio](canales-de-interaccion/gestion-de-instancias-en-teams-y-el-portal/interfaz-y-funciones-comunes/inicio.md)
+    * [Envíos](canales-de-interaccion/gestion-de-instancias-en-teams-y-el-portal/interfaz-y-funciones-comunes/envios.md)
+    * [Bandeja de Entrada](canales-de-interaccion/gestion-de-instancias-en-teams-y-el-portal/interfaz-y-funciones-comunes/bandeja-de-entrada.md)
+  * [Actividad en Microsoft Teams](canales-de-interaccion/gestion-de-instancias-en-teams-y-el-portal/actividad-en-microsoft-teams.md)
+  * [Características del Portal](canales-de-interaccion/gestion-de-instancias-en-teams-y-el-portal/caracteristicas-del-portal.md)

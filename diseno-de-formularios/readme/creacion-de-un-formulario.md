@@ -2,6 +2,8 @@
 
 RPA Connect te permite crear formularios de un modo intuitivo y dinámico. Para comenzar, pulsa el botón _**New**_ en la esquina superior derecha de la pantalla.
 
+
+
 <figure><img src="../../.gitbook/assets/nuevo_formulario.png" alt=""><figcaption><p>Botón "New"</p></figcaption></figure>
 
 Se abrirá una ventana emergente donde podrás completar los datos básicos del formulario:
@@ -14,6 +16,6 @@ Por el momento, nos centraremos en los tres primeros campos:
 
 Una vez que hayas finalizado, pulsa el botón _**Create**_ para guardar la información ingresada y generar el nuevo formulario.
 
-{% embed url="https://www.youtube.com/watch?ab_channel=RPAConnect&v=SxDMnn3NbnY" %}
-Creación de un formulario
-{% endembed %}
+
+
+{% embed url="https://www.youtube.com/watch?v=SxDMnn3NbnY" %}
