@@ -11,5 +11,3 @@ Tras la autenticación, se mostrará la siguiente ventana, informando los permis
 Una vez completado con éxito este paso, se mostrará un mensaje de confirmación notificando que el consentimiento fue aceptado y quedará autorizada la conexión. Esto generará un acceso al aplicativo de RPA Connect en Entra ID y también permitirá que los usuarios puedan ingresar a la aplicación RPA Connect con sus cuentas corporativas.
 
 Para ello, recuerda seleccionar la opción “Iniciar sesión con su cuenta de trabajo” al momento de acceder a la plataforma, tal como vimos en el [Inicio rápido](../../).
-
-\

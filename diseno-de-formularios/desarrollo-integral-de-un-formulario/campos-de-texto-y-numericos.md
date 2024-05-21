@@ -22,9 +22,7 @@ La aplicación interpreta los 0 como caracteres numéricos y da forma a los dato
 
 <figure><img src="../../.gitbook/assets/RPA_2_14.png" alt=""><figcaption><p>Previsualización del campo "Clave tributaria"</p></figcaption></figure>
 
-Vamos a añadir ahora un nuevo campo de texto. Para ello, inserta una nueva columna dentro de la sección “Datos de contacto” y nómbrala “Domicilio” en la propiedad _**Title**_. Agrega un campo dinámico de texto, que tenga los valores “calle\_dom” para _**Name**_ y “Calle” para _**Label**_ y  dirígete a _**Properties > General > Size**_ para modificar su tamaño a 2 unidades y defínelo como obligatorio (recuerda que debes establecer la propiedad _**Required**_ como _**True**_). En la sección _**Validations**_ del apartado de propiedades, establece el tope máximo de extensión en 60 caracteres.
-
-
+Vamos a añadir ahora un nuevo campo de texto. Para ello, inserta una nueva columna dentro de la sección “Datos de contacto” y nómbrala “Domicilio” en la propiedad _**Title**_. Agrega un campo de entradaa de texto, que tenga los valores “calle\_dom” para _**Name**_ y “Calle” para _**Label**_ y dirígete a _**Properties > General > Size**_ para modificar su tamaño a 2 unidades y defínelo como obligatorio (recuerda que debes establecer la propiedad _**Required**_ como _**True**_). En la sección _**Validations**_ del apartado de propiedades, establece el tope máximo de extensión en 60 caracteres.
 
 {% embed url="https://youtu.be/Rdyvn1mKFxw" %}
 
@@ -43,7 +41,5 @@ Suponiendo que todos los contactos se produzcan desde Argentina, utiliza el apar
 En la columna “Domicilio”, añade un campo numérico para la altura de la calle entre los campos de “Calle” y “Ciudad o localidad”. Reduce su tamaño a 1 unidad y defínelo como obligatorio. Luego, indica los valores “num\_calle\_dom” y “Número” para _**Name**_ y _**Label**_ respectivamente y establece el valor máximo del campo en 9999.
 
 A la derecha de ese campo, crearemos otro con las mismas características para el código postal, pero estableciendo el valor “CP” tanto para _**Name**_ como para _**Label**_. Recuerda guardar tu progreso periódicamente para conservar los cambios que realices.
-
-
 
 {% embed url="https://youtu.be/5iV4v67hB34" %}

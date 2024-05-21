@@ -19,7 +19,7 @@ Para comenzar, dirígete a la aplicación _**Build**_ y localiza el formulario q
 
 Se desplegará un apartado lateral con dos pestañas: _**Form**_, la cual hemos visto anteriormente y corresponde a la información básica del formulario, y _**Stages**_. Pulsa sobre esta última.
 
-<figure><img src="../.gitbook/assets/rpa_4_2.png" alt=""><figcaption><p>Pestaña <em><strong>Stage</strong></em> en el apartado de edición </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/rpa_4_2.png" alt=""><figcaption><p>Pestaña <em><strong>Stage</strong></em> en el apartado de edición</p></figcaption></figure>
 
 A continuación, haz clic sobre la opción _**Add stage**_ para definir un nuevo paso. Modifica los nombres del _**Initial Stage**_ (el punto de partida desde el cual el usuario recorrerá el workflow) y el _**Stage 1**_ por los que desees y luego pulsa el desplegable para elegir el formulario correspondiente al primer paso (en este ejemplo, “Actualización de datos”).
 
@@ -29,8 +29,6 @@ Continúa añadiendo los _**Stages**_ que necesites hasta completar el proceso. 
 
 {% embed url="https://youtu.be/4fuxPAozVI8" %}
 
-
-
 Para darle funcionalidad a tu workflow, deberás recurrir a un conector como BluePrism. Más adelante, abordaremos en mayor profundidad las [acciones asociadas a workflows](../blueprism/conexion-con-blueprism/otras-acciones/acciones-vinculadas-a-stages.md) y su configuración, pero es importante detallar sus principales características:
 
 * _**Create Stage:**_ generará un nuevo _**Stage**_, siempre asignado a un usuario o grupo, ya que no es posible generar un link público para un _**Stage**_.
@@ -39,8 +37,3 @@ Para darle funcionalidad a tu workflow, deberás recurrir a un conector como Blu
 Una vez que hayas configurado tu workflow, podrás dar inicio a una nueva instancia desde el Portal RPA Connect o la aplicación Teams y cada paso se habilitará de forma escalonada a medida que se complete el anterior. Más adelante, conocerás [cómo gestionar la Bandeja de Entrada](../canales-de-interaccion/gestion-de-instancias-en-teams-y-el-portal/interfaz-y-funciones-comunes/bandeja-de-entrada.md) para visualizar cuál es la etapa activa a la espera de respuesta y revisar las actualizaciones de su estado.
 
 Para obtener la respuesta a un _**Stage**_ de una instancia de formulario, puedes utilizar la acción _**Get Stage Response**_. Al momento de configurar el parámetro _**index**_, debes tener presente que el _**Stage 1**_ corresponde al índice _**0**_, el _**Stage 2**_ al índice _**1**_ y de este modo sucesivamente.
-
-\
-
-
-\

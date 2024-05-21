@@ -13,5 +13,3 @@ La pestaña _**Options**_ ofrece una serie de configuraciones avanzadas que inci
 * _**tagTemplates:**_ permiten configurar valores a partir de los campos del formulario, que luego pueden utilizar para filtrar u ordenar los envíos en función de las respuestas obtenidas.
 * _**confirmationMessage:**_ establece el mensaje que se muestra automáticamente al usuario final para confirmar que su respuesta ha sido recibida correctamente.
 * _**fullWidthForm:**_ condiciona el uso del espacio en pantalla, pudiendo configurarse como verdadero (_**true**_) para forzar el ancho completo, o falso (_**null**_) para ajustarse a la longitud por defecto del formulario, dejando un margen a ambos lados.
-
-**¡Felicitaciones!** Has completado con éxito la guía de inicio en RPA Connect. Sigue avanzando en tu recorrido para aprender más sobre las posibilidades de esta herramienta y otras configuraciones que te permitirán potenciar al máximo su usabilidad y eficacia.\
