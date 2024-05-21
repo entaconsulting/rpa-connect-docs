@@ -24,7 +24,9 @@ Partiendo de lo visto en la sección anterior, comenzaremos por los usuarios y g
 
 Pulsa _**Save changes**_ para terminar.
 
-_\[VIDEO: Creación de un perfil]_
+
+
+{% embed url="https://www.youtube.com/watch?v=17a7RQyjAoY" %}
 
 Para añadir un grupo, sigue los mismos pasos que en el punto anterior, pero selecciona el tipo _**Group**_ en lugar de _**User**_. A diferencia de los espacios de trabajo, en este caso no deberás ingresar un ID, sino que la aplicación mostrará un desplegable donde podrás elegir el grupo que desees entre aquellos que estén dados de alta.
 
@@ -36,6 +38,8 @@ La _**ApiKey**_ permite la autenticación desde los robots, automatización o c�
 
 Para generar un nuevo perfil, haz clic en _**New > ApiKey**_, ingresa un nombre y, si lo deseas, una descripción y pulsa _**Add**_. El sistema te devolverá una clave única que deberás copiar y guardar.
 
-_\[VIDEO: Creación de una ApiKey]_
+
+
+{% embed url="https://www.youtube.com/watch?v=o72b8RyGSqA" %}
 
 Ten presente que cuando utilices la API de RPA Connect, deberás usar esta _**ApiKey**_ para concretar la autenticación.
