@@ -1,94 +1,88 @@
-name: Traducir contenido de Spanish a English
-
+name: Translate Spanish Content
 on:
   push:
     paths:
-      - spanish/**  # Ejecuta la acción solo cuando hay cambios en la carpeta `spanish`
+      - 'spanish/**'  # Solo se ejecuta cuando hay cambios en la carpeta spanish
+  workflow_dispatch:  # Permite ejecutar manualmente
 
 jobs:
   translate:
     runs-on: ubuntu-latest
-
     steps:
-      # Verificar el repositorio
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      # Configurar Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'  # Utiliza una versión específica de Python
+          python-version: '3.10'
 
-      # Instalar dependencias
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install openai
+          pip install openai pyyaml
 
-      # Traducir archivos
-      - name: Translate Spanish files to English
+      - name: Translate content
         env:
           AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
-          AZURE_OPENAI_API_BASE: ${{ secrets.AZURE_OPENAI_API_BASE }}
+          AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_API_BASE }}
+          AZURE_OPENAI_DEPLOYMENT: ${{ secrets.AZURE_OPENAI_DEPLOYMENT_NAME }}
           AZURE_OPENAI_API_VERSION: ${{ secrets.AZURE_OPENAI_API_VERSION }}
-          AZURE_OPENAI_DEPLOYMENT_NAME: ${{ secrets.AZURE_OPENAI_DEPLOYMENT_NAME }}
         run: |
+          python -c '
           import os
+          import glob
           import openai
+          from pathlib import Path
 
-          # Configurar la clave de API y el endpoint de Azure OpenAI
-          openai.api_type = "azure"
+          # Configurar Azure OpenAI
           openai.api_key = os.getenv("AZURE_OPENAI_API_KEY")
-          openai.api_base = os.getenv("AZURE_OPENAI_API_BASE")
+          openai.api_base = os.getenv("AZURE_OPENAI_ENDPOINT")
+          openai.api_type = "azure"
           openai.api_version = os.getenv("AZURE_OPENAI_API_VERSION")
 
-          spanish_dir = "./spanish"
-          english_dir = "./english"
-
-          # Crear el directorio de inglés si no existe
-          os.makedirs(english_dir, exist_ok=True)
-
-          # Recorrer archivos en la carpeta `spanish`
-          for root, _, files in os.walk(spanish_dir):
-              for file in files:
-                  spanish_file = os.path.join(root, file)
-                  with open(spanish_file, "r", encoding="utf-8") as f:
-                      content = f.read()
-
-                  # Traducir contenido utilizando la API de Azure OpenAI
-                  response = openai.ChatCompletion.create(
-                      engine=os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME"),
+          def translate_text(text):
+              try:
+                  response = openai.chat.completions.create(
+                      model=os.getenv("AZURE_OPENAI_DEPLOYMENT"),
                       messages=[
-                          {"role": "system", "content": "You are a translator from Spanish to English."},
-                          {"role": "user", "content": content}
-                      ],
-                      max_tokens=2000
+                          {"role": "system", "content": "You are a translator. Translate the following Spanish text to English, maintaining the original format and structure."},
+                          {"role": "user", "content": text}
+                      ]
                   )
+                  return response.choices[0].message.content
+              except Exception as e:
+                  print(f"Error translating text: {e}")
+                  return None
 
-                  translated_text = response.choices[0].message.content.strip()
+          # Crear directorio english si no existe
+          os.makedirs("english", exist_ok=True)
 
-                  # Escribir contenido traducido en la carpeta `english`
-                  relative_path = os.path.relpath(spanish_file, spanish_dir)
-                  english_file = os.path.join(english_dir, relative_path)
+          # Procesar todos los archivos en la carpeta spanish
+          for spanish_file in glob.glob("spanish/**/*.*", recursive=True):
+              if os.path.isfile(spanish_file):
+                  # Crear la misma estructura de carpetas en english
+                  relative_path = os.path.relpath(spanish_file, "spanish")
+                  english_file = os.path.join("english", relative_path)
                   os.makedirs(os.path.dirname(english_file), exist_ok=True)
 
-                  with open(english_file, "w", encoding="utf-8") as f:
-                      f.write(translated_text)
+                  # Leer y traducir el contenido
+                  with open(spanish_file, "r", encoding="utf-8") as f:
+                      content = f.read()
+                  
+                  translated_content = translate_text(content)
+                  
+                  if translated_content:
+                      # Guardar la traducción
+                      with open(english_file, "w", encoding="utf-8") as f:
+                          f.write(translated_content)
+                      print(f"Translated {spanish_file} -> {english_file}")
+          '
 
-      # Configurar información de usuario para el commit
-      - name: Set Git user
+      - name: Commit and push changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-      # Comprobar si hay cambios y hacer commit
-      - name: Commit changes
-        run: |
-          git add english
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Translated Spanish content to English"
-            git push
-          fi
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add english/
+          git commit -m "Translate Spanish content to English" || echo "No changes to commit"
+          git push
