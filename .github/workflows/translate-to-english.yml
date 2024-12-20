@@ -1,0 +1,94 @@
+name: Traducir contenido de Spanish a English
+
+on:
+  push:
+    paths:
+      - spanish/**  # Ejecuta la acción solo cuando hay cambios en la carpeta `spanish`
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Verificar el repositorio
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Configurar Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'  # Utiliza una versión específica de Python
+
+      # Instalar dependencias
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install openai
+
+      # Traducir archivos
+      - name: Translate Spanish files to English
+        env:
+          AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
+          AZURE_OPENAI_API_BASE: ${{ secrets.AZURE_OPENAI_API_BASE }}
+          AZURE_OPENAI_API_VERSION: ${{ secrets.AZURE_OPENAI_API_VERSION }}
+          AZURE_OPENAI_DEPLOYMENT_NAME: ${{ secrets.AZURE_OPENAI_DEPLOYMENT_NAME }}
+        run: |
+          import os
+          import openai
+
+          # Configurar la clave de API y el endpoint de Azure OpenAI
+          openai.api_type = "azure"
+          openai.api_key = os.getenv("AZURE_OPENAI_API_KEY")
+          openai.api_base = os.getenv("AZURE_OPENAI_API_BASE")
+          openai.api_version = os.getenv("AZURE_OPENAI_API_VERSION")
+
+          spanish_dir = "./spanish"
+          english_dir = "./english"
+
+          # Crear el directorio de inglés si no existe
+          os.makedirs(english_dir, exist_ok=True)
+
+          # Recorrer archivos en la carpeta `spanish`
+          for root, _, files in os.walk(spanish_dir):
+              for file in files:
+                  spanish_file = os.path.join(root, file)
+                  with open(spanish_file, "r", encoding="utf-8") as f:
+                      content = f.read()
+
+                  # Traducir contenido utilizando la API de Azure OpenAI
+                  response = openai.ChatCompletion.create(
+                      engine=os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME"),
+                      messages=[
+                          {"role": "system", "content": "You are a translator from Spanish to English."},
+                          {"role": "user", "content": content}
+                      ],
+                      max_tokens=2000
+                  )
+
+                  translated_text = response.choices[0].message.content.strip()
+
+                  # Escribir contenido traducido en la carpeta `english`
+                  relative_path = os.path.relpath(spanish_file, spanish_dir)
+                  english_file = os.path.join(english_dir, relative_path)
+                  os.makedirs(os.path.dirname(english_file), exist_ok=True)
+
+                  with open(english_file, "w", encoding="utf-8") as f:
+                      f.write(translated_text)
+
+      # Configurar información de usuario para el commit
+      - name: Set Git user
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      # Comprobar si hay cambios y hacer commit
+      - name: Commit changes
+        run: |
+          git add english
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Translated Spanish content to English"
+            git push
+          fi
