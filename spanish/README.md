@@ -1,7 +1,7 @@
 ---
 description: >-
   Descubre los aspectos más importantes de RPA Connect, desde el inicio de
-  sesión hasta el diseño de un formulario básico..
+  sesión hasta el diseño de un formulario básico.
 layout:
   title:
     visible: true
