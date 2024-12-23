@@ -8,4 +8,4 @@ In the _**General**_ section, you will find the properties common to all element
 
 Static elements like _**Text**_ or _**Image**_ retain the first two properties but cannot be configured as required since this parameter only applies to input fields where users enter data.
 
-<figure><img src="../../.gitbook/assets/RPA_2_01.png" alt=""><figcaption><p>Differences between the properties of an input field and a static element</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/RPA_2_01.png" alt=""><figcaption><p>Differences between the properties of an input field and a static element</p></figcaption></figure>

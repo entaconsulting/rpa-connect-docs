@@ -15,15 +15,15 @@ Keep in mind that all forms in a workflow must have been created beforehand, as 
 
 To begin, go to the _**Build**_ application and locate the form you want to convert into the first step of your workflow. Click on the _**Edit**_ action with the pencil icon.
 
-<figure><img src="../.gitbook/assets/rpa_4_1.png" alt=""><figcaption><p><em><strong>Edit</strong></em> action</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/rpa_4_1.png" alt=""><figcaption><p><em><strong>Edit</strong></em> action</p></figcaption></figure>
 
 A side panel will appear with two tabs: _**Form**_, which we have seen previously and corresponds to the basic information of the form, and _**Stages**_. Click on the latter.
 
-<figure><img src="../.gitbook/assets/rpa_4_2.png" alt=""><figcaption><p><em><strong>Stage</strong></em> tab in the editing panel</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/rpa_4_2.png" alt=""><figcaption><p><em><strong>Stage</strong></em> tab in the editing panel</p></figcaption></figure>
 
 Next, click on the _**Add stage**_ option to define a new step. Modify the names of the _**Initial Stage**_ (the starting point from which the user will navigate the workflow) and _**Stage 1**_ to your desired names, then click the dropdown to select the corresponding form for the first step (in this example, “Data Update”).
 
-<figure><img src="../.gitbook/assets/rpa_4_3.png" alt="" width="473"><figcaption><p>Form selection for a <em><strong>Stage</strong></em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/rpa_4_3.png" alt="" width="473"><figcaption><p>Form selection for a <em><strong>Stage</strong></em></p></figcaption></figure>
 
 Continue adding the _**Stages**_ you need until the process is complete. If you need to remove any of the created steps from the workflow, simply click on the trash icon to delete it. Once finished, click _**Save**_ to save the changes.
 

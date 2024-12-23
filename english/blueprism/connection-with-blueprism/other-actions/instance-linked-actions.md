@@ -24,7 +24,7 @@ Allows generating a new public token for a form instance (e.g., because it has e
 
 Allows users of the portal or the Teams application to review the status of the forms they have submitted, which is reflected in the "Process Status" and "Completed" columns.
 
-<figure><img src="../../../.gitbook/assets/rpa_blueprism_11.png" alt=""><figcaption><p>Form status visualization in the Portal</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa_blueprism_11.png" alt=""><figcaption><p>Form status visualization in the Portal</p></figcaption></figure>
 
 This action is configured with the following parameters:
 

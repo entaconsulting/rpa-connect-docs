@@ -2,11 +2,11 @@
 
 RPA Connect allows you to create forms in an intuitive and dynamic way. To get started, click the _**New**_ button in the upper-right corner of the screen.
 
-<figure><img src="../../.gitbook/assets/nuevo_formulario.png" alt=""><figcaption><p>"New" Button</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/nuevo_formulario.png" alt=""><figcaption><p>"New" Button</p></figcaption></figure>
 
 A pop-up window will appear where you can fill in the basic details of the form:
 
-<figure><img src="../../.gitbook/assets/Ventana_formulario.png" alt=""><figcaption><p>New Form Window</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Ventana_formulario.png" alt=""><figcaption><p>New Form Window</p></figcaption></figure>
 
 For now, we will focus on the first three fields:
 

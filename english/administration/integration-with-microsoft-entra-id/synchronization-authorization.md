@@ -6,7 +6,7 @@ To begin, a user with global administrator permissions in Entra ID must access t
 
 After authentication, the following window will appear, displaying the necessary permissions to establish synchronization. Click _**Accept**_ to proceed.
 
-<figure><img src="../../.gitbook/assets/rpa_entra_id_1.png" alt=""><figcaption><p>Permission Acceptance</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/rpa_entra_id_1.png" alt=""><figcaption><p>Permission Acceptance</p></figcaption></figure>
 
 Once this step is successfully completed, a confirmation message will appear notifying that the consent has been accepted, and the connection will be authorized. This will create access to the RPA Connect application in Entra ID and also allow users to log in to the RPA Connect application with their corporate accounts.
 

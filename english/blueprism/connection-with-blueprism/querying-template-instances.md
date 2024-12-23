@@ -2,7 +2,7 @@
 
 The action _**Get instances from form definition**_ allows you to automatically generate a list of all instances of a template, enabling the application of various filters based on the data you wish to retrieve, as well as parameters to sort them.
 
-<figure><img src="../../.gitbook/assets/rpa_blueprism_8.png" alt=""><figcaption><p>Retrieve instances from a form</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/rpa_blueprism_8.png" alt=""><figcaption><p>Retrieve instances from a form</p></figcaption></figure>
 
 Let's take a look at some of these functions:
 

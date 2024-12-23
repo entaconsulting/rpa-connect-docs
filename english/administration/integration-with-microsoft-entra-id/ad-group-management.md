@@ -8,19 +8,19 @@ As we analyzed earlier, there are various roles when interacting with RPA Connec
 
 To create a new group from Microsoft Entra ID, navigate to _**Enterprise applications > RPA Connect > Users and Groups**_ and click _**Add user/group**_.
 
-<figure><img src="../../.gitbook/assets/rpa_entra_id_2.png" alt=""><figcaption><p>Creating a group in Microsoft Entra ID</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/rpa_entra_id_2.png" alt=""><figcaption><p>Creating a group in Microsoft Entra ID</p></figcaption></figure>
 
 Next, select the user or group and their corresponding permissions. Click _**OK**_ to confirm the process.\
 Try creating a group for users responsible for generating new forms, which we will call "Developers." Assign the permission _**Manage form definitions**_ to this group.
 
 When a new group is created, a specific ID will be generated for it, which can be copied and used to manage this group on the RPA Connect platform.
 
-<figure><img src="../../.gitbook/assets/rpa_entra_id_3.png" alt=""><figcaption><p>Group ID</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/rpa_entra_id_3.png" alt=""><figcaption><p>Group ID</p></figcaption></figure>
 
 Copy the ID corresponding to the group you created and go to the _**Admin App**_. Navigate to _**Users And Groups > Groups**_ and click on _**New Group**_.
 
 Fill in the defined name and role, and toggle the _**AAD Integration**_ switch. A new field will appear where you can paste the corresponding ID.
 
-<figure><img src="../../.gitbook/assets/rpa_entra_id_4.png" alt=""><figcaption><p>AAD Integration</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/rpa_entra_id_4.png" alt=""><figcaption><p>AAD Integration</p></figcaption></figure>
 
 This will import the group created in Microsoft Entra ID and activate the connection.

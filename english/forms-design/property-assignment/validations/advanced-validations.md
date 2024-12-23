@@ -2,23 +2,23 @@
 
 The _**Validation Expressions**_ section allows you to configure data logic validations, which are especially efficient for verifying that the value entered by the user in each field matches the expected data type. Its functionality consists of checking whether a specific condition is met.
 
-<figure><img src="../../../.gitbook/assets/rpa4_1.png" alt=""><figcaption><p><em><strong>Validation Expressions</strong></em> section</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa4_1.png" alt=""><figcaption><p><em><strong>Validation Expressions</strong></em> section</p></figcaption></figure>
 
 If the condition is met and the result is true, an error message is displayed, and the user cannot submit the form until it is corrected. If the condition is false, no action will be taken, and the user can proceed with the process.
 
 These types of validations can refer to the data entered in the field where they are defined (e.g., checking if it meets a specific length), in another field (e.g., showing an error in the "Quantity" field if the "Product" field is invalid), or by comparing data between two fields (e.g., checking if the start date for a given period is later than the end date).
 
-<figure><img src="../../../.gitbook/assets/rpa4_2.png" alt=""><figcaption><p>Example of an error message when the entered expression is validated</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa4_2.png" alt=""><figcaption><p>Example of an error message when the entered expression is validated</p></figcaption></figure>
 
 Each expression consists of two values:
 
 <table><thead><tr><th width="131">Value</th><th>Description</th></tr></thead><tbody><tr><td>Message</td><td>The text to be displayed to the user to warn of the error when the validated condition is met, preventing the form from being submitted</td></tr><tr><td>Expression</td><td>The associated formula that will execute the validation for which the message is displayed</td></tr></tbody></table>
 
-<figure><img src="../../../.gitbook/assets/rpa4_3.png" alt=""><figcaption><p>Details of message and expression</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa4_3.png" alt=""><figcaption><p>Details of message and expression</p></figcaption></figure>
 
 The _**Add Expression**_ option in the top-right corner of the section allows you to include additional functions, enabling new fields for messages and expressions. This is useful for validating multiple conditions within the same field, such as ensuring a date falls within a specific period, is more recent than the date in another field, and is different from a third field. Applying multiple formulas with specific criteria allows for more precise control over the type of data accepted, helping to reduce the margin of error.
 
-<figure><img src="../../../.gitbook/assets/rpa4_4.png" alt=""><figcaption><p>Configuring multiple expressions for the same field with <em><strong>Add Expression</strong></em></p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa4_4.png" alt=""><figcaption><p>Configuring multiple expressions for the same field with <em><strong>Add Expression</strong></em></p></figcaption></figure>
 
 Below, we will analyze the following expressions in detail:
 
@@ -26,7 +26,7 @@ Below, we will analyze the following expressions in detail:
 
 Keep in mind that formula components are enclosed in parentheses. The editor will display an error message if the number of open parentheses in the formula does not match the number of closed parentheses, helping you identify inconsistencies in more complex functions.
 
-<figure><img src="../../../.gitbook/assets/rpa4_5.png" alt=""><figcaption><p>Alert for an error in the expression structure</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa4_5.png" alt=""><figcaption><p>Alert for an error in the expression structure</p></figcaption></figure>
 
 ## Content Validations
 
@@ -38,7 +38,7 @@ As we saw earlier, validation expressions allow us to enhance certain functional
 
 Select the "Last Name and First Name" field and set the _**Required**_ property to _**False**_ to disable it. Then, go to the _**Validation Expressions**_ section.
 
-<figure><img src="../../../.gitbook/assets/rpa4_6.png" alt=""><figcaption><p>Modifying the <em><strong>Required</strong></em> property</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa4_6.png" alt=""><figcaption><p>Modifying the <em><strong>Required</strong></em> property</p></figcaption></figure>
 
 In the _**Message**_ field, write the text that will be displayed to the user if they do not complete the field, for example: "You must enter your first and last name."
 
@@ -46,7 +46,7 @@ Next, you will need to set the formula that controls this condition. Click the _
 
 > isEmpty(last_name_first_name)
 
-<figure><img src="../../../.gitbook/assets/rpa4_7.png" alt=""><figcaption><p><em><strong>Edit Expression</strong></em> option</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa4_7.png" alt=""><figcaption><p><em><strong>Edit Expression</strong></em> option</p></figcaption></figure>
 
 Whenever you add an expression, make sure to verify that the field names are written correctly, respecting uppercase and lowercase letters. The editor will display a warning if a field name is not present in the schema when an undeclared value is entered, but it cannot detect if you have written the name of another existing field instead.
 
@@ -56,7 +56,7 @@ Once you have added the expression, click _**Confirm**_ to finish. If the condit
 
 This type of validation can also be applied to tables to verify if rows are loaded or to _**Attachment**_ fields to check if a file has been attached. If no information is present, the formula will return the value _**true**_ and display an error message.
 
-<figure><img src="../../../.gitbook/assets/rpa4_8.png" alt=""><figcaption><p>Applying the <em><strong>isEmpty()</strong></em> function to an <em><strong>Attachment</strong></em> field</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa4_8.png" alt=""><figcaption><p>Applying the <em><strong>isEmpty()</strong></em> function to an <em><strong>Attachment</strong></em> field</p></figcaption></figure>
 
 ### Validation of Blank Fields in a Table
 
@@ -64,7 +64,7 @@ The _**count()**_ formula is useful for counting the number of characters entere
 
 > count(Table)==0
 
-<figure><img src="../../../.gitbook/assets/rpa4_9.png" alt=""><figcaption><p>Content validation in a table</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa4_9.png" alt=""><figcaption><p>Content validation in a table</p></figcaption></figure>
 
 Other simple operators can also be used to validate that the count is within the allowed limits:
 
@@ -86,7 +86,7 @@ The _**dateDifferenceInBusinessDays()**_ function calculates the total number of
 
 This formula will count the days between the request date and the delivery date, excluding weekends, and display an error message if the condition is true, i.e., if the period between the two dates is less than or equal to 5 days.
 
-<figure><img src="../../../.gitbook/assets/rpa4_10.png" alt=""><figcaption><p>Validation of the elapsed period between two dates</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa4_10.png" alt=""><figcaption><p>Validation of the elapsed period between two dates</p></figcaption></figure>
 
 ## Validation of Field Comparisons
 
@@ -104,11 +104,11 @@ To ensure that the number entered in this field is different from the one entere
 
 Next, press _**Confirm**_. If this condition is met, an alert will be displayed, which we will define in the _**Message**_ field, for example: "The landline and mobile phone numbers cannot be the same."
 
-<figure><img src="../../../.gitbook/assets/rpa4_11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa4_11.png" alt=""><figcaption></figcaption></figure>
 
 A simpler alternative to this function can be constructed using operators for the comparison. For example, if you replace the _**equal()**_ formula from the previous example with the expression _**phone==mobile_phone**_, the same validation will be performed, and you will get the same results.
 
-<figure><img src="../../../.gitbook/assets/rpa4_12.png" alt=""><figcaption><p>Alternative to the <em><strong>equal()</strong></em> expression using operators</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa4_12.png" alt=""><figcaption><p>Alternative to the <em><strong>equal()</strong></em> expression using operators</p></figcaption></figure>
 
 Let’s look at the different types of operators you can use to compare data from two fields, along with an example of each and the action:
 
@@ -122,20 +122,20 @@ The _**smaller()**_ function allows you to compare the dates entered in two fiel
 
 > smaller(StartDate,EndDate)
 
-<figure><img src="../../../.gitbook/assets/rpa4_13.png" alt=""><figcaption><p>Comparison between dates using the <em><strong>smaller()</strong></em> function</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa4_13.png" alt=""><figcaption><p>Comparison between dates using the <em><strong>smaller()</strong></em> function</p></figcaption></figure>
 
 Conversely, the _**larger()**_ function checks if the first date is later than the second and returns an error message if this condition is met. Its structure is shown below:
 
 > larger(EndDate,StartDate)
 
-<figure><img src="../../../.gitbook/assets/rpa4_14.png" alt=""><figcaption><p>Comparison between dates using the <em><strong>larger()</strong></em> function</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa4_14.png" alt=""><figcaption><p>Comparison between dates using the <em><strong>larger()</strong></em> function</p></figcaption></figure>
 
 There are variations for both expressions that also return an error message if the two dates are identical, i.e., applying the functionality of _**equal()**_. To do this, we need to modify the arguments of these functions as follows:
 
 * _**smallerEq (Date1,Date2)**_: checks that the first date is earlier than or equal to the second
 * _**largerEq (Date1,Date2)**_: checks that the first date is later than or equal to the second
 
-<figure><img src="../../../.gitbook/assets/rpa4_15.png" alt=""><figcaption><p>Applying the <em><strong>largerEq()</strong></em> expression</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa4_15.png" alt=""><figcaption><p>Applying the <em><strong>largerEq()</strong></em> expression</p></figcaption></figure>
 
 These functions can also be used to compare other types of values, such as numbers or text strings.
 
@@ -151,7 +151,7 @@ If the boolean is deactivated, i.e., if the response is negative, the expression
 
 > not(Confirmation)
 
-<figure><img src="../../../.gitbook/assets/rpa4_16.png" alt=""><figcaption><p>Validation of a boolean field</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa4_16.png" alt=""><figcaption><p>Validation of a boolean field</p></figcaption></figure>
 
 More complex validations can also be performed by applying the _**not()**_ expression to the evaluation of other functions, for example:
 
@@ -159,7 +159,7 @@ More complex validations can also be performed by applying the _**not()**_ expre
 
 If the condition that fields 1 and 2 are equal is not met, an error message will be displayed. Remember that the editor will display an error message if the number of open parentheses in the formula does not match the number of closed parentheses.
 
-<figure><img src="../../../.gitbook/assets/rpa4_17.png" alt=""><figcaption><p>Checking for differences between values</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa4_17.png" alt=""><figcaption><p>Checking for differences between values</p></figcaption></figure>
 
 ### AND Operator
 

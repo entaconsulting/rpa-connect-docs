@@ -2,15 +2,15 @@
 
 Depending on the role assigned to you for each form in _**Authorization profiles**_, in the _**Submissions**_ tab, you will only see the instances you have created (_**Contributor**_ permissions) or those of all users (_**Manager**_ permissions), including draft instances that have not yet been submitted.
 
-<figure><img src="../../../.gitbook/assets/rpa_3_6.png" alt=""><figcaption><p><em><strong>Submissions</strong></em> screen</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa_3_6.png" alt=""><figcaption><p><em><strong>Submissions</strong></em> screen</p></figcaption></figure>
 
 In the upper right corner, you will find sorting and filtering options to help you more easily locate the generated instances and organize them as needed.
 
-<figure><img src="../../../.gitbook/assets/rpa_3_7.png" alt=""><figcaption><p>Sorting and filtering options</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa_3_7.png" alt=""><figcaption><p>Sorting and filtering options</p></figcaption></figure>
 
 The filters applied to the forms are cumulative, meaning you can use more than one at a time. To do this, expand the list, click on the first filter you want to set, and select the condition for that filter. For example, when filtering by status, you can choose confirmed or draft instances.
 
-<figure><img src="../../../.gitbook/assets/rpa_3_8.png" alt=""><figcaption><p>Filter by form status</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa_3_8.png" alt=""><figcaption><p>Filter by form status</p></figcaption></figure>
 
 Once the value is set, you can add a new filter by clicking on the "Add filter" option and configuring it in the same way. Instances that meet both conditions will be displayed.
 
@@ -54,10 +54,10 @@ Like the _**Process Status**_ field, this information is configured using the _*
 
 <table><thead><tr><th width="199">Parameter</th><th>Description</th></tr></thead><tbody><tr><td><em><strong>endState</strong></em></td><td>Refers to the final processing status with possible results of “OK” or “Error,” accompanied by checkmark or alert icons.</td></tr><tr><td><em><strong>completionMessage</strong></em></td><td>A free text message accompanying the status to provide more details. It is especially useful in case of errors to inform the user of the reasons for the result.</td></tr></tbody></table>
 
-<figure><img src="../../../.gitbook/assets/rpa_3_9.png" alt=""><figcaption><p>Status message</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa_3_9.png" alt=""><figcaption><p>Status message</p></figcaption></figure>
 
 ## Actions
 
 The window icon allows you to open and review a saved or submitted instance, regardless of its status, while the trash icon allows you to discard a draft. Keep in mind that submitted instances can no longer be deleted.
 
-<figure><img src="../../../.gitbook/assets/rpa_3_10.png" alt=""><figcaption><p>Actions on an instance</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/rpa_3_10.png" alt=""><figcaption><p>Actions on an instance</p></figcaption></figure>

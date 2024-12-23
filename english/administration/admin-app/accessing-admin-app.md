@@ -2,11 +2,11 @@
 
 To access the administration tool, you can navigate to the side menu of the _**Build**_ tool and click on _**Admin App**_, or go directly to the URL [https://app.rpaconnect.io/admin/](https://app.rpaconnect.io/admin/). If you do not have an active session, you will be prompted to log in to continue.
 
-<figure><img src="../../.gitbook/assets/rpa_admin_app_1.png" alt=""><figcaption><p>Access to Admin App</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/rpa_admin_app_1.png" alt=""><figcaption><p>Access to Admin App</p></figcaption></figure>
 
 Upon entering, you will find the main dashboard with usage statistics for your forms and some useful shortcuts. Navigate to the side menu to display all management options.
 
-<figure><img src="../../.gitbook/assets/rpa_admin_app_2.png" alt=""><figcaption><p>Management Tools</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/rpa_admin_app_2.png" alt=""><figcaption><p>Management Tools</p></figcaption></figure>
 
 Let’s review the main function of each tool before diving into the details:
 

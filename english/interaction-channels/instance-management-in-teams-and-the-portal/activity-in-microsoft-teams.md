@@ -2,7 +2,7 @@
 
 The main difference between Teams and the RPA Connect Portal lies in the _Activity_ tab, as its functionality focuses on the notifications we previously discussed when addressing the [integration with Microsoft Entra ID](../../administracion/integracion-con-microsoft-entra-id/). When a new form instance is assigned to you, the application will send you a pop-up notification and create a new chat message in the _**Activity**_ tab.
 
-<figure><img src="../../.gitbook/assets/rpa_3_14.png" alt=""><figcaption><p>Notification in Microsoft Teams</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/rpa_3_14.png" alt=""><figcaption><p>Notification in Microsoft Teams</p></figcaption></figure>
 
 On this card, you will see:
 

@@ -4,6 +4,6 @@ To begin the process, go to Authorization Profiles and create an ApiKey, which w
 
 Next, access BluePrism and create a new authentication credential. Enter the desired name and select the type _**Basic Authentication**_. Set the username as “apikey” and, for the key, use the ApiKey copied in the previous step.
 
-<figure><img src="../../.gitbook/assets/rpa_blueprism_5.png" alt=""><figcaption><p>Creating an authentication key</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/rpa_blueprism_5.png" alt=""><figcaption><p>Creating an authentication key</p></figcaption></figure>
 
 Click _**OK**_ to confirm and finish.

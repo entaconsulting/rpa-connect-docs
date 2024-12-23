@@ -18,7 +18,7 @@ On the other hand, the _**Download Attachment**_ action includes the following p
 
 These actions allow, respectively, adding and deleting a resource from a form instance. The type of resources managed through this method are not included in the form design but are added as external links with downloadable material:
 
-<figure><img src="../../../.gitbook/assets/uso_de_resource.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/uso_de_resource.png" alt=""><figcaption></figcaption></figure>
 
 The properties to define when uploading a new resource are:
 

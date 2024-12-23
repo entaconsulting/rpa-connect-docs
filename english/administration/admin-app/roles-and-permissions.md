@@ -8,15 +8,15 @@ To get started, navigate to the _**Authorization profiles**_ section from the si
 * **Contributor:** The templates from that workspace will be available on their homepage, and they can create new form instances.
 * **Manager:** In addition to having _**Contributor**_ permissions, they can also view all form instances submitted by profiles with access to the template.
 
-<figure><img src="../../.gitbook/assets/rpa_admin_app_16.png" alt=""><figcaption><p>Role assignment visualization</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/rpa_admin_app_16.png" alt=""><figcaption><p>Role assignment visualization</p></figcaption></figure>
 
 By clicking the arrow to the left of the workspace name, you can expand the list of form templates contained within it and also assign specific roles to each of them. In addition to the three options mentioned earlier, there is the _**Inherit**_ option, which means inheriting the permission assigned to the workspace without changes.
 
-<figure><img src="../../.gitbook/assets/rpa_admin_app_17.png" alt=""><figcaption><p>Role definition within a workspace</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/rpa_admin_app_17.png" alt=""><figcaption><p>Role definition within a workspace</p></figcaption></figure>
 
 The _**New**_ button in the upper-right corner allows you to create a new profile, with three possible types: _**User/Group**_, _**ApiKey**_, and _**Client App**_. We will focus on the first two.
 
-<figure><img src="../../.gitbook/assets/rpa_admin_app_18.png" alt=""><figcaption><p>Admin App profiles</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/rpa_admin_app_18.png" alt=""><figcaption><p>Admin App profiles</p></figcaption></figure>
 
 ## User or Group Profile
 
@@ -28,7 +28,7 @@ Click _**Save changes**_ to finish.
 
 To add a group, follow the same steps as above, but select the _**Group**_ type instead of _**User**_. Unlike workspaces, in this case, you do not need to enter an ID; the application will display a dropdown menu where you can select the desired group from those already registered.
 
-<figure><img src="../../.gitbook/assets/rpa_admin_app_19.png" alt=""><figcaption><p>Group profile</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/rpa_admin_app_19.png" alt=""><figcaption><p>Group profile</p></figcaption></figure>
 
 ## ApiKey
 

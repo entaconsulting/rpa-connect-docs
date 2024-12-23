@@ -19,24 +19,24 @@ You can choose different display variants from the **Properties > Appearance** s
 
 It is recommended that when choosing the format that best suits your form, you enable real-time preview and check its functionality.
 
-<figure><img src="../../.gitbook/assets/RPA_2_19.png" alt=""><figcaption><p>Comparison of the <em><strong>Select</strong></em> and <em><strong>Options</strong></em> variants in the <em><strong>Appearance</strong></em> properties section</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/RPA_2_19.png" alt=""><figcaption><p>Comparison of the <em><strong>Select</strong></em> and <em><strong>Options</strong></em> variants in the <em><strong>Appearance</strong></em> properties section</p></figcaption></figure>
 
 The _**Split Value/Label**_ option allows you to assign each option a real value different from what is displayed to the user. This helps simplify data processing. For example, if each country had an assigned internal code, we would display the country names in _**Label**_ and input the corresponding code for each in _**Value**_.
 
-<figure><img src="../../.gitbook/assets/RPA_2_20.png" alt=""><figcaption><p>Configuration of the <em><strong>Split Value/Label</strong></em> function</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/RPA_2_20.png" alt=""><figcaption><p>Configuration of the <em><strong>Split Value/Label</strong></em> function</p></figcaption></figure>
 
 ## Boolean
 
 Unlike _**Options**_, the Boolean field allows you to set a binary logic value (_yes/no_) where the user can define whether a condition is true or not by toggling the button on or off. This field retains the general properties common to input fields, and the value to be evaluated is defined in the _**Label**_ property.
 
-<figure><img src="../../.gitbook/assets/RPA_2_21.png" alt=""><figcaption><p>Definition of a <em><strong>Boolean</strong></em> field</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/RPA_2_21.png" alt=""><figcaption><p>Definition of a <em><strong>Boolean</strong></em> field</p></figcaption></figure>
 
 This type of tool can be used to report a status, mark compliance with certain characteristics, decide on the preference for an additional service, etc. Within _**Appearance**_, you can choose between the _**Switch**_ variant, which will display a slider like the example, and the _**Checkbox**_ variant, which will display a checkbox.
 
-<figure><img src="../../.gitbook/assets/RPA_2_22.png" alt=""><figcaption><p>Alternative appearance of <em><strong>Boolean</strong></em> with the <em><strong>Checkbox</strong></em> format</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/RPA_2_22.png" alt=""><figcaption><p>Alternative appearance of <em><strong>Boolean</strong></em> with the <em><strong>Checkbox</strong></em> format</p></figcaption></figure>
 
 ## Tristate
 
 Fields of this type generate a button with three possible states: true, false, and null (no response). Due to its simplicity, the configuration options for _**Tristate**_ are limited to general properties similar to those of _**Boolean**_. However, it differs from this field by allowing a neutral response without requiring the user to choose a predefined positive or negative value.
 
-<figure><img src="../../.gitbook/assets/Tristate (2).png" alt=""><figcaption><p>Properties of the <em><strong>Tristate</strong></em> field</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Tristate (2).png" alt=""><figcaption><p>Properties of the <em><strong>Tristate</strong></em> field</p></figcaption></figure>

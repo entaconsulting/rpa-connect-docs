@@ -6,7 +6,7 @@ Companies with Microsoft accounts that use Teams as part of their work environme
 
 One of the main features of the Web Portal is that it is hosted on its own URL ([https://app.rpaconnect.io/portal](https://app.rpaconnect.io/portal)), and any registered user can log in and access it with their username and password using local account login.
 
-<figure><img src="../../.gitbook/assets/rpa_3_15.png" alt=""><figcaption><p>Login to the RPA Connect Portal</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/rpa_3_15.png" alt=""><figcaption><p>Login to the RPA Connect Portal</p></figcaption></figure>
 
 This allows users who do not belong to an organization to also access the forms assigned to them and manage their own submissions.
 
@@ -14,7 +14,7 @@ Within the Portal, the work environment will feature the same tabs and functiona
 
 <div data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/rpa_3_16.png" alt=""><figcaption><p>Home Screen in the RPA Connect Portal</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/rpa_3_16.png" alt=""><figcaption><p>Home Screen in the RPA Connect Portal</p></figcaption></figure>
 
 </div>
 
