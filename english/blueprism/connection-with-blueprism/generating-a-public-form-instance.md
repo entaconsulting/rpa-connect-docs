@@ -1,8 +1,8 @@
 # Generating a Public Form Instance
 
-Each time an RPA Connect form instance is generated, an ID and an expiring token are obtained, which allow the creation of a specific link to access the instance via a browser. Let’s see how this process is carried out.
+Each time an RPA Connect form instance is generated, an ID and an expiring token are obtained, which allows the creation of a specific link to access the instance via a browser. Let’s see how this process is carried out.
 
-First, authentication is required. As the _**host**_, we will enter “[https://app.rpaconnect.io](https://app.rpaconnect.io)” and as the _**apikey**_, the ApiKey obtained during the credential creation process.
+First of all, it is necessary to perform the authentication. As the _**host**_, we will enter “[https://app.rpaconnect.io](https://app.rpaconnect.io)” and as the _**apikey**_, the ApiKey obtained during the credential creation process.
 
 <figure><img src="../../../.gitbook/assets/rpa_blueprism_4.png" alt=""><figcaption><p>Values for authentication</p></figcaption></figure>
 
