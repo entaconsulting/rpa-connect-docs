@@ -14,7 +14,7 @@ From _**Admin App**_, you can assign, add, or restrict different types of roles 
 * **Admin Manage:** Enables access to the administration application. Users with this role will be able to manage platform users and configure all the options we will see in this section.
 * **Connect User:** Assigns a specific property to users, allowing them to be assigned forms that have been defined as _**Connect only**_ by checking the corresponding option box in the form editing window of the _**Build**_ application.
 
-Roles are specific and independent of each other, so you can assign one, several, or all roles to a single user, depending on the functions and actions they need to perform.&#x20;
+Roles are specific and independent of each other, so you can assign one, several, or all roles to a single user, depending on the functions and actions they need to perform.
 
 To create a new user, click on the _**New user**_ button, assign the desired roles to the user, and then enter their email address and the name to be assigned:
 
@@ -38,7 +38,7 @@ Editing also allows you to manage the groups a user belongs to. To assign them t
 
 ## Groups
 
-Expand the side menu and go to the _**Users And Groups > Groups**_ section. From there, you can manage all the groups you have created. To create a new group, click on _**New group**_.&#x20;
+Expand the side menu and go to the _**Users And Groups > Groups**_ section. From there, you can manage all the groups you have created. To create a new group, click on _**New group**_.
 
 <figure><img src="../../../.gitbook/assets/rpa_admin_app_7.png" alt=""><figcaption><p>Group creation</p></figcaption></figure>
 
@@ -57,7 +57,5 @@ Try creating a group named “Editors” and assign it the _**Form.Manage**_ rol
 You can add or remove members from a group using the edit button, always ensuring that they are registered in the _**Users**_ section. You can also do this in the same section by accessing a user and selecting the group to add or remove.
 
 _\[VIDEO: Group creation]_
-
-You can add or remove members from a group using the edit button, always ensuring that they are registered in the _**Users**_ section. You can also do this in the same section by accessing a user and selecting the group to add or remove.
 
 <figure><img src="../../../.gitbook/assets/rpa_admin_app_10.png" alt=""><figcaption><p>Group management from the <em>Users</em> section</p></figcaption></figure>
