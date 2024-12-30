@@ -7,4 +7,4 @@ description: >-
 
 # Integration with Microsoft Entra ID
 
-Below, we will go through the steps to enable the connection and start managing AD groups with their roles and permissions.
+Next, we will go through the steps to enable the connection and start managing AD groups with their roles and permissions.

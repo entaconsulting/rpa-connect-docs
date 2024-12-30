@@ -1,4 +1,4 @@
-# Basic Form Design
+# Designing a Basic Form
 
 ## Layout
 
@@ -42,17 +42,17 @@ Input fields offer greater variety, as they are designed to record different typ
 
 We will add two basic types of fields to our form:
 
-<table><thead><tr><th width="123">Field</th><th>Usage</th></tr></thead><tbody><tr><td><strong>Text</strong></td><td>Allows entering a single line of text, useful for brief data such as names and addresses.</td></tr><tr><td><strong>Number</strong></td><td>Configured to accept only numeric characters, useful for applications like phone numbers, IDs, and quantities.</td></tr></tbody></table>
+<table><thead><tr><th width="123">Field</th><th>Usage</th></tr></thead><tbody><tr><td><strong>Text</strong></td><td>Allows the entry of a single line of text, useful for brief data such as names and addresses.</td></tr><tr><td><strong>Number</strong></td><td>Configured to accept only numeric characters, useful for applications like phone numbers, IDs, and quantities.</td></tr></tbody></table>
 
 Select the _**Text**_ option from the dropdown and click on the first column of the "Personal Data" section to add it.
 
-The _**Properties > Name**_ section is used to assign a name that identifies each specific field in the form. It is recommended that names do not contain spaces and are clear, as they will only be visible internally, allowing you to retrieve and organize data. Rename this field as "last_name_first_name" and press _**OK**_ (or the _enter_ key).
+The _**Properties > Name**_ section is used to assign a name that identifies each specific field in the form. It is recommended that names do not contain spaces and are clear, as they will only be visible internally, allowing you to retrieve and organize data. Rename this field as "last\_name\_first\_name" and press _**OK**_ (or the _enter_ key).
 
 <figure><img src="../../../.gitbook/assets/rpa_5.png" alt=""><figcaption><p>_**Name**_ property</p></figcaption></figure>
 
 Place another text field below, rename it "nationality," and press _**OK**_.
 
-Now repeat the same procedure in the second column, but this time adding a numeric field and another text field. Select the _**Number**_ option from the dropdown and place a field we will call "id_number." Then, from the _**Text**_ option, insert a field where the user will enter their tax ID, which we will call "tax_id" (known as "CUIL/CUIT" in Argentina).
+Now repeat the same procedure in the second column, but this time adding a numeric field and another text field. Select the _**Number**_ option from the dropdown and place a field we will call "id\_number." Then, from the _**Text**_ option, insert a field where the user will enter their tax ID, which we will call "tax\_id" (known as "CUIL/CUIT" in Argentina).
 
 The fields should look like this:
 
