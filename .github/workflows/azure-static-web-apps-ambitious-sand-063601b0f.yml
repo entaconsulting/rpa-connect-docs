@@ -19,6 +19,16 @@ jobs:
         with:
           submodules: true
           lfs: false
+      - name: Debug static folder
+        run: |
+          pwd
+          ls -la
+          echo "---- static ----"
+          ls -la static
+          echo "---- index search ----"
+          find static -maxdepth 4 -iname "index.html" -o -iname "index.htm"
+          echo "---- config search ----"
+          find static -maxdepth 4 -iname "staticwebapp.config.json"
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
